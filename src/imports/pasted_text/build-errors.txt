@@ -1,0 +1,122 @@
+[Error] Failed to load resource: the server responded with a status of 404 () (b4c9a54cb0a605d9cf1f1d23f6d70ad6b8511ef8f47f73ef27de8bf5669304ed, line 0)
+[Warning] Failed to fetch snapshot files: – Error: XHR for "/api/rev/FtzISRwMF78mXYHbksacxY/code_snapshot/b4c9a54cb0a605d9cf1f1d23f6d70ad6b8511ef8f47f73ef27de8bf5669304ed" failed with status 404 (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+Error: XHR for "/api/rev/FtzISRwMF78mXYHbksacxY/code_snapshot/b4c9a54cb0a605d9cf1f1d23f6d70ad6b8511ef8f47f73ef27de8bf5669304ed" failed with status 404
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3)
+[Log] [esbuild-wasm] Initializing from URL: – "/webpack-artifacts/assets/2b68f2d3d5e8b3d6.wasm" (devtools_worker-ca13ef76cbd352b1.min.js.br, line 1190)
+[Log] [esbuild-wasm] Initialized (devtools_worker-ca13ef76cbd352b1.min.js.br, line 1190)
+[Error] [esbuild] Build error: – Error: Build failed with 19 errors:
+virtual-fs:file:///src/app/components/CaregiverActionPanel.tsx:27:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/ChuteAuditLog.tsx:29:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/LocationSettings.tsx:5:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/MultiPatientInitializer.tsx:4:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/SystemIntegrityPanel.tsx:9:41: ERROR: Could not resolve "/utils/supabase/info"
+...
+Error: Build failed with 19 errors:
+virtual-fs:file:///src/app/components/CaregiverActionPanel.tsx:27:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/ChuteAuditLog.tsx:29:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/LocationSettings.tsx:5:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/MultiPatientInitializer.tsx:4:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/SystemIntegrityPanel.tsx:9:41: ERROR: Could not resolve "/utils/supabase/info"
+...
+	(anonymous function) (devtools_worker-ca13ef76cbd352b1.min.js.br:2001:3772)
+[Error] Error: Build failed with 19 errors:
+virtual-fs:file:///src/app/components/CaregiverActionPanel.tsx:27:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/ChuteAuditLog.tsx:29:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/LocationSettings.tsx:5:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/MultiPatientInitializer.tsx:4:41: ERROR: Could not resolve "/utils/supabase/info"
+virtual-fs:file:///src/app/components/SystemIntegrityPanel.tsx:9:41: ERROR: Could not resolve "/utils/supabase/info"
+...
+	(anonymous function) (devtools_worker-ca13ef76cbd352b1.min.js.br:3237:1882)
+[Error] Source Map loading errors (x2)
+[Error] Failed to load resource: the server responded with a status of 404 () (adora-start.temp.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 404 () (adora-start.temp.js.map, line 0)
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/vendor-db253a9172c1c90d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9bc16591d8b9252040f6e59e3c5daa356bb437e4/4548-ed7ed14008fd606c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ef16aa686a0f3f191e31c9f6e1e7540215287acb/5860-52593e69470d76d1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c36bb72fc8b8a1aef780db081fbfd6e42883c14e/3016-2a5c1972f960fa6d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/1929-be5ac3f62a7a8dcc.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/e0963b11d0fb4fbbdac77632949c6eebfb20ef52/5532-c0401e82e2fe4be1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/svg-4bdfcb9c9c9f518a.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/73af8f73d86a5270d013ba1aad7ddcff3408b28c/vendor-40e7ce35e2f38bab.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/6453-88705ee92e0a5ebe.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/7ef0bb0dc1ba4cc6abfab2f4203a5b744b5979a7/svg-039572250fe3ab4b.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/11b84128a99b37ed8694d8ddee5aeebc700c8a32/1085-cb34b51411e004a8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/91ca8504dac266e8b431c5c8820ad13635e7bbfb/vendor-d7eec16dee683427.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/6738-3fda1ddb20aebe5d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/1565-5c17cee17a9a15d3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/6177-0ca70a8192d4002b.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c36bb72fc8b8a1aef780db081fbfd6e42883c14e/6454-b1825d1fcaf0edf8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/vendor-2fc693df65ea962d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/779-d4cfe7e1d65b66d3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/722-ffa0e1af5961b209.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/9688-2877589b1fabff09.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/7345-2bd1c9e748557865.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/4938-d2f50b6280773e15.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/7fc3b8998cbd96ae28eba585ab60ddede6ac0d39/svg-f8783d25aff607ec.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/53532d12362966c8d4f57c21b9b16f1df8fd0a35/vendor-cdc3d6de43fbc55d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8c947b4c880e6f8bffc448e9606cae135aee8f06/vendor-fe7483da6da244f1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/3914-1879a986fcb01e6c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/svg-60aaf9e8d0b06a48.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/d5348ada5d16350db6d8222b2a636000e01c577c/svg-0075965bf8f35442.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/f958fd633e9fc7be397b95a4669b6794e054a007/7192-6b32dfaa3c717c77.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8c947b4c880e6f8bffc448e9606cae135aee8f06/vendor-4e739bf5d5764b1a.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/8269-10a0b173568ce20d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/d5348ada5d16350db6d8222b2a636000e01c577c/cssbuilder-6ff16ca2b6cc49da.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/3191-f16d88e7f4a7e641.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/7104fcf91620355f87815142ae03ca0ae7c10d56/early-df470e197db0abb3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/1129-0567468297d94f95.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/f958fd633e9fc7be397b95a4669b6794e054a007/8117-ad7b6f205ff5f9dc.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/5063-ad3b3822fede6c8b.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/vendor-a6c806ff19968562.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/2030-e7744ef98b84ed93.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/2226-e9f3bf97a8d36f1f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3bce03d6fbe65cb2eae3939efb3f7536bb6f0533/8094-84d81a551a242695.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/5215-b42d393755965fc8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/6756-f9f5a070044c6750.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/vendor-d8b75a61e062cdc1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/081048f42897bbf32fbd7facaeb0a6e3c88189d1/vendor-fdcc732e0d2d4c0f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/acddf9089fbfd6787b57297b2ef0ff41c737460d/vendor-843fcfb7285ea33d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/1684-a34ac8821adc0bf2.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/84dfb7761aa6940ee7a483601d438a4aca23350d/svg-be02c1ffbf0aec0d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c36bb72fc8b8a1aef780db081fbfd6e42883c14e/svg-0d8bc07d33bebe03.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/7a17e4b69c7261029c0e738c8225e2dba59f67c3/svg-10e6dcec46a9da5b.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/081048f42897bbf32fbd7facaeb0a6e3c88189d1/vendor-61558bc8fb46456d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/73af8f73d86a5270d013ba1aad7ddcff3408b28c/vendor-9815c7a80644aef6.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ad1761495c15f4bd187dbb4084f514c95b6c99ae/8963-b692dd4f78e62d4f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/1154-c520874a11a9eb51.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/854e9705cc9afb06efe34f30b77abeda317d82c4/4756-6ac3a0bfe4dc0f47.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c36bb72fc8b8a1aef780db081fbfd6e42883c14e/svg-460a916ebb53ffa9.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ae84e838c4a0af391e9cfbc054d0728f239954a6/vendor-9192a5af6dd894e3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/e0963b11d0fb4fbbdac77632949c6eebfb20ef52/659-361c20ca42b119a8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8c947b4c880e6f8bffc448e9606cae135aee8f06/vendor-core-83c17265f2588e9e.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c8cf25fd40ec23e6d4f43316412edea9dd392484/5606-1de0d45022ae32b0.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/1882-23dca179063477b3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/081048f42897bbf32fbd7facaeb0a6e3c88189d1/svg-773ec884034c346e.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9bc16591d8b9252040f6e59e3c5daa356bb437e4/devtools_worker-ca13ef76cbd352b1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/0c16330d98ed1308a46ca9d7d1121769331b9e67/vendor-fb4a1cc09c808238.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/11b84128a99b37ed8694d8ddee5aeebc700c8a32/6576-c592e1cfbc090d14.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3507d83e98be7ac400ce3a3c5a5925ab2096de45/vendor-8113207a091b7299.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3bce03d6fbe65cb2eae3939efb3f7536bb6f0533/182-a2a3e500b1c8d3b8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/94c9da28384f0c469d43a4b42f62bfce68d79b21/svg-a337b013ed90d899.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9e058ac5f7aa31aaac52c13937750329b7a119c8/5228-8361fd2f20eac9ac.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/f958fd633e9fc7be397b95a4669b6794e054a007/64-f47645a48911a4d6.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a2cb707601ea7407c0f4899c8cf3c0a254332021/5315-2e3f9a5fb598c2ea.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/f958fd633e9fc7be397b95a4669b6794e054a007/4912-fed5e835e177d94f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/image_io_worker-566e5d2b1203a52a.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3bce03d6fbe65cb2eae3939efb3f7536bb6f0533/4339-ff0042cfc4da6c28.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/e5c90e94b01a298c25a1cda5eafd49a977af729f/7095-88f1b49912ec663c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9bc16591d8b9252040f6e59e3c5daa356bb437e4/940032c6-08e97310d973a1a5.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ad1761495c15f4bd187dbb4084f514c95b6c99ae/9449-06ff24a56a9356d9.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/library_search_worker-dcd126bafb3b18a4.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ef16aa686a0f3f191e31c9f6e1e7540215287acb/figma_app-970c79351b85b521.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3bce03d6fbe65cb2eae3939efb3f7536bb6f0533/3290-f93104818985098d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8096d82207271afdd374ee5e71e864601964aab6/1109-b71e63246c3f526f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/91ca8504dac266e8b431c5c8820ad13635e7bbfb/vendor-b550f9628d231457.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/9fd263a18529be129d30daf5ffb501d07522a5d8/spell_check_worker-7ed1a248fc4efe10.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ef16aa686a0f3f191e31c9f6e1e7540215287acb/runtime~figma_app-949ab13f558cd21c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/2378-45d73c355bca4800.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ad1761495c15f4bd187dbb4084f514c95b6c99ae/3414-35d79915280c3856.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/5cb28097109182c7f2f54d4a24791904fca27498/8886-aacb7701eb548843.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/3a2c9335daf95fc88a36651c4c11649b5028abeb/vendor-e9dcb5e47a8032a1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Error] Failed to load resource: The network connection was lost. (histogram_batched, line 0)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)

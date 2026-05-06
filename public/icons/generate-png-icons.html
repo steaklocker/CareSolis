@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate PNG Icons - CareSolis</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #10b981;
+            text-align: center;
+        }
+        .alert {
+            background: #fef3c7;
+            border: 2px solid #f59e0b;
+            color: #78350f;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 2rem 0;
+            font-weight: 600;
+        }
+        .preview {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .preview-card {
+            background: #1e293b;
+            border: 2px solid #334155;
+            border-radius: 8px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        canvas {
+            border: 2px solid #10b981;
+            border-radius: 8px;
+            width: 100%;
+            height: auto;
+            margin: 1rem 0;
+        }
+        button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 600;
+            width: 100%;
+            margin: 0.5rem 0;
+        }
+        button:hover {
+            background: #059669;
+        }
+        .success {
+            background: #10b981;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+            display: none;
+        }
+        .instructions {
+            background: #1e293b;
+            border-left: 4px solid #10b981;
+            padding: 1.5rem;
+            margin: 2rem 0;
+            border-radius: 4px;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #10b981;
+        }
+        .instructions ol {
+            margin: 0.5rem 0;
+            padding-left: 1.5rem;
+        }
+        .instructions li {
+            margin: 0.5rem 0;
+        }
+        code {
+            background: #0f172a;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            color: #10b981;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏥 CareSolis - PNG Icon Generator</h1>
+    
+    <div class="alert">
+        ⚠️ <strong>CRITICAL FOR iOS:</strong> You MUST download these PNG files and save them to <code>/public/icons/</code> directory. SVG icons do NOT work reliably on iOS Safari!
+    </div>
+
+    <div class="instructions">
+        <h3>📱 Instructions for iOS PWA:</h3>
+        <ol>
+            <li>Click the download buttons below</li>
+            <li>Save <code>icon-192.png</code> to <code>/public/icons/icon-192.png</code></li>
+            <li>Save <code>icon-512.png</code> to <code>/public/icons/icon-512.png</code></li>
+            <li>Refresh your app</li>
+            <li>Open in Safari on iPhone</li>
+            <li>Tap Share → "Add to Home Screen"</li>
+            <li>Launch from home screen → Should be full screen!</li>
+        </ol>
+    </div>
+
+    <div class="preview">
+        <div class="preview-card">
+            <h3>192×192 (Home Screen)</h3>
+            <canvas id="canvas192" width="192" height="192"></canvas>
+            <button onclick="downloadIcon(192)">📥 Download icon-192.png</button>
+        </div>
+        
+        <div class="preview-card">
+            <h3>512×512 (Splash Screen)</h3>
+            <canvas id="canvas512" width="512" height="512"></canvas>
+            <button onclick="downloadIcon(512)">📥 Download icon-512.png</button>
+        </div>
+    </div>
+
+    <div class="success" id="success">
+        ✅ Icon downloaded! Save it to /public/icons/
+    </div>
+
+    <div class="instructions">
+        <h3>🧪 Testing on iPhone:</h3>
+        <ol>
+            <li>Open Safari on iPhone (NOT Chrome)</li>
+            <li>Navigate to your app URL</li>
+            <li>Tap the Share button (square with arrow)</li>
+            <li>Scroll down and tap "Add to Home Screen"</li>
+            <li>Tap "Add" in the top right</li>
+            <li>Find the CareSolis icon on your home screen</li>
+            <li>Tap it → Should launch FULL SCREEN (no Safari UI)</li>
+        </ol>
+        <p><strong>If you still see Safari UI:</strong></p>
+        <ul>
+            <li>Delete the app from home screen</li>
+            <li>Clear Safari cache (Settings → Safari → Clear History and Website Data)</li>
+            <li>Try adding to home screen again</li>
+        </ul>
+    </div>
+
+    <script>
+        function drawIcon(size) {
+            const canvas = document.getElementById(`canvas${size}`);
+            const ctx = canvas.getContext('2d');
+            
+            // Clear canvas
+            ctx.clearRect(0, 0, size, size);
+            
+            // Background (slate)
+            ctx.fillStyle = '#0f172a';
+            ctx.fillRect(0, 0, size, size);
+            
+            // Inner background with rounded corners
+            ctx.fillStyle = '#1e293b';
+            const padding = size * 0.075;
+            const innerSize = size - (padding * 2);
+            const radius = size * 0.15;
+            
+            ctx.beginPath();
+            ctx.moveTo(padding + radius, padding);
+            ctx.lineTo(padding + innerSize - radius, padding);
+            ctx.quadraticCurveTo(padding + innerSize, padding, padding + innerSize, padding + radius);
+            ctx.lineTo(padding + innerSize, padding + innerSize - radius);
+            ctx.quadraticCurveTo(padding + innerSize, padding + innerSize, padding + innerSize - radius, padding + innerSize);
+            ctx.lineTo(padding + radius, padding + innerSize);
+            ctx.quadraticCurveTo(padding, padding + innerSize, padding, padding + innerSize - radius);
+            ctx.lineTo(padding, padding + radius);
+            ctx.quadraticCurveTo(padding, padding, padding + radius, padding);
+            ctx.closePath();
+            ctx.fill();
+            
+            // Medical cross (emerald)
+            ctx.fillStyle = '#10b981';
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const crossWidth = size * 0.1;
+            const crossHeight = size * 0.4;
+            const crossRadius = size * 0.015;
+            
+            // Vertical bar
+            roundRect(ctx, centerX - crossWidth/2, centerY - crossHeight/2, crossWidth, crossHeight, crossRadius);
+            ctx.fill();
+            
+            // Horizontal bar
+            roundRect(ctx, centerX - crossHeight/2, centerY - crossWidth/2, crossHeight, crossWidth, crossRadius);
+            ctx.fill();
+            
+            // Pulse rings
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.3)';
+            ctx.lineWidth = size * 0.015;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, size * 0.35, 0, 2 * Math.PI);
+            ctx.stroke();
+            
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.15)';
+            ctx.lineWidth = size * 0.01;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, size * 0.42, 0, 2 * Math.PI);
+            ctx.stroke();
+            
+            // Add text for larger icons
+            if (size >= 192) {
+                ctx.fillStyle = '#64748b';
+                ctx.font = `bold ${size * 0.08}px -apple-system, system-ui, sans-serif`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText('CARE', centerX, size * 0.77);
+                ctx.fillText('SOLIS', centerX, size * 0.86);
+            }
+        }
+        
+        function roundRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+        }
+        
+        function downloadIcon(size) {
+            const canvas = document.getElementById(`canvas${size}`);
+            canvas.toBlob((blob) => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `icon-${size}.png`;
+                a.click();
+                URL.revokeObjectURL(url);
+                
+                // Show success message
+                const success = document.getElementById('success');
+                success.style.display = 'block';
+                setTimeout(() => {
+                    success.style.display = 'none';
+                }, 3000);
+            }, 'image/png');
+        }
+        
+        // Generate icons on load
+        drawIcon(192);
+        drawIcon(512);
+        
+        console.log('✅ PNG icons generated');
+        console.log('📥 Click download buttons to save');
+        console.log('📂 Save to /public/icons/ directory');
+    </script>
+</body>
+</html>

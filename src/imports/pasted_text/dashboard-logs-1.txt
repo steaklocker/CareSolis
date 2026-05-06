@@ -1,0 +1,197 @@
+[Log] ⚠️ [Dashboard] Overriding premature "Closed" status for 15:00 (44 mins past) (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Error] Source Map loading errors (x13)
+[Log] 10:44:27 PM [vite] (client) hmr update /src/app/context/CaresolisContext.tsx, /src/styles/index.css (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [ACKNOWLEDGE] Sending to backend: – {patientId: "1", localDate: "2026-03-17", localTime: "15:44", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{patientId: "1", localDate: "2026-03-17", localTime: "15:44", currentTime: "2026-03-17T22:44:28.307Z"}Object
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 10:44:28 PM [vite] (client) hmr invalidate /src/app/context/CaresolisContext.tsx Could not Fast Refresh ("useCaresolis" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 10:44:28 PM [vite] (client) hmr update /src/styles/index.css, /src/app/routes.tsx, /src/app/pages/Dashboard.tsx, /src/app/components/Sidebar.tsx, /src/app/components/HomeEnvironmentCard.tsx, /src/app/pages/DeviceHealthPage.tsx, /src/app/components/ActiveEscalationPanel.tsx (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "La Jolla", state: "California", country: "US", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{city: "La Jolla", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 32.84727, …}Object
+[Log] 📍 LocationSync: Using cached location – {city: "La Jolla", state: "California", country: "US", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{city: "La Jolla", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 32.84727, …}Object
+[Log] 📋 Sidebar filtered for caregiver: – {total: 20, visible: 10, hidden: 10} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: – false (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – {drift: "111.5ms", rtt: "317.00ms", quality: "good", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{drift: "111.5ms", rtt: "317.00ms", quality: "good", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: 111.5, lastSyncTimestamp: 1773787469855, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: 111.5, lastSyncTimestamp: 1773787469855, syncQuality: "good", timezone: "America/Los_Angeles", …}Object
+[Log] 10:44:29 PM [vite] (client) hmr invalidate /src/app/routes.tsx Could not Fast Refresh ("router" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+10:44:29 PM [vite] (client) hmr update /src/styles/index.css, /src/app/App.tsx
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, {time: "17:00", status: "Scheduled", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 17:00", lastInteraction: null}Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, {time: "17:00", status: "Scheduled", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 17:00", lastInteraction: null}Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-17T22:44:29.933Z", currentMinutes: 944, totalSlots: 5, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{currentTime: "2026-03-17T22:44:29.933Z", currentMinutes: 944, totalSlots: 5, slots: [{time: "09:00", status: "Closed"}, {time: "13:00", status: "Closed"}, {time: "15:00", status: "Closed"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] ⚠️ [Dashboard] Overriding premature "Closed" status for 15:00 (44 mins past) (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 1, slots: [{time: "15:00", status: "Closed"}]} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, {time: "17:00", status: "Scheduled", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 17:00", lastInteraction: null}Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"

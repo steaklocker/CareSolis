@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    
+    <!-- iOS PWA Critical Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="CareSolis" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    
+    <!-- Standard Meta Tags -->
+    <meta name="description" content="CareSolis - Infrastructure-grade interaction visibility system for aging households" />
+    <meta name="theme-color" content="#10b981" />
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Apple Touch Icons (PNG REQUIRED for iOS) -->
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png" />
+    
+    <!-- Prevent Safari from auto-formatting phone numbers -->
+    <meta name="format-detection" content="telephone=no" />
+    
+    <title>CareSolis</title>
+    
+    <script>
+      // Apply theme immediately to prevent flash
+      (function() {
+        const storageKey = 'caresolis-ui-theme';
+        const theme = localStorage.getItem(storageKey) || 'dark';
+        const root = document.documentElement;
+        
+        if (theme === 'dark') {
+          root.classList.add('dark');
+          console.log('⚡ Instant theme applied: dark');
+        } else if (theme === 'light') {
+          root.classList.add('light');
+          console.log('⚡ Instant theme applied: light');
+        } else {
+          // System preference
+          const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          root.classList.add(systemTheme);
+          console.log('⚡ Instant theme applied: system ->', systemTheme);
+        }
+        
+        // Log PWA mode for debugging
+        const isStandalone = window.matchMedia('(display-mode: standalone)').matches 
+          || window.navigator.standalone 
+          || document.referrer.includes('android-app://');
+        
+        if (isStandalone) {
+          console.log('📱 PWA MODE: Running in standalone (full screen)');
+        } else {
+          console.log('🌐 BROWSER MODE: Running in browser (add to home screen for full experience)');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

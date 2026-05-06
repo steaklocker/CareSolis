@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareSolis Icon Generator</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .icon-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+        }
+        canvas {
+            border-radius: 8px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 0.5rem;
+        }
+        button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            margin-top: 0.5rem;
+        }
+        button:hover {
+            background: #059669;
+        }
+        .download-all {
+            background: #3b82f6;
+            padding: 1rem 2rem;
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .download-all:hover {
+            background: #2563eb;
+        }
+        h1 {
+            color: #10b981;
+            font-size: 2rem;
+            margin: 0;
+        }
+        .instructions {
+            background: #1e293b;
+            border-left: 4px solid #10b981;
+            padding: 1rem;
+            border-radius: 4px;
+            max-width: 800px;
+        }
+        .instructions code {
+            background: #0f172a;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            color: #10b981;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏥 CareSolis Icon Generator</h1>
+    
+    <div class="instructions">
+        <h3>📱 Instructions:</h3>
+        <ol>
+            <li>Click "Download All Icons" below to save all 8 sizes</li>
+            <li>Or click individual "Download" buttons for each size</li>
+            <li>Save all icons to <code>/public/icons/</code> directory</li>
+            <li>Icons will be named: <code>icon-72x72.png</code>, <code>icon-96x96.png</code>, etc.</li>
+        </ol>
+        <p><strong>Note:</strong> These are professional CareSolis-branded icons with emerald green accent on slate background.</p>
+    </div>
+
+    <button class="download-all" onclick="downloadAllIcons()">📥 Download All Icons (ZIP)</button>
+
+    <div class="icon-grid" id="iconGrid"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script>
+        const sizes = [72, 96, 128, 144, 152, 192, 384, 512];
+        const canvases = {};
+
+        function createIcon(size) {
+            const canvas = document.createElement('canvas');
+            canvas.width = size;
+            canvas.height = size;
+            const ctx = canvas.getContext('2d');
+
+            // Background (slate)
+            ctx.fillStyle = '#0f172a';
+            ctx.fillRect(0, 0, size, size);
+
+            // Border radius effect
+            ctx.fillStyle = '#1e293b';
+            const borderRadius = size * 0.15;
+            roundRect(ctx, borderRadius/2, borderRadius/2, size - borderRadius, size - borderRadius, borderRadius);
+
+            // Medical cross symbol (emerald green)
+            ctx.fillStyle = '#10b981';
+            const centerX = size / 2;
+            const centerY = size / 2;
+            const crossWidth = size * 0.12;
+            const crossHeight = size * 0.4;
+
+            // Vertical bar
+            ctx.fillRect(centerX - crossWidth/2, centerY - crossHeight/2, crossWidth, crossHeight);
+            // Horizontal bar
+            ctx.fillRect(centerX - crossHeight/2, centerY - crossWidth/2, crossHeight, crossWidth);
+
+            // Add subtle pulse rings
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.3)';
+            ctx.lineWidth = size * 0.015;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, size * 0.35, 0, 2 * Math.PI);
+            ctx.stroke();
+
+            ctx.strokeStyle = 'rgba(16, 185, 129, 0.15)';
+            ctx.lineWidth = size * 0.01;
+            ctx.beginPath();
+            ctx.arc(centerX, centerY, size * 0.42, 0, 2 * Math.PI);
+            ctx.stroke();
+
+            // Add "CS" text for larger icons
+            if (size >= 192) {
+                ctx.fillStyle = '#64748b';
+                ctx.font = `bold ${size * 0.08}px system-ui`;
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'top';
+                ctx.fillText('CARE', centerX, size * 0.75);
+                ctx.fillText('SOLIS', centerX, size * 0.83);
+            }
+
+            return canvas;
+        }
+
+        function roundRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function downloadIcon(canvas, filename) {
+            canvas.toBlob((blob) => {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                a.click();
+                URL.revokeObjectURL(url);
+            });
+        }
+
+        async function downloadAllIcons() {
+            const zip = new JSZip();
+            const folder = zip.folder("caresolis-icons");
+
+            for (const size of sizes) {
+                const canvas = canvases[size];
+                const blob = await new Promise(resolve => canvas.toBlob(resolve));
+                folder.file(`icon-${size}x${size}.png`, blob);
+            }
+
+            // Also add badge and action icons
+            const badgeCanvas = createIcon(72);
+            const badgeBlob = await new Promise(resolve => badgeCanvas.toBlob(resolve));
+            folder.file('badge-72x72.png', badgeBlob);
+
+            const actionCanvas = createIcon(96);
+            const actionBlob = await new Promise(resolve => actionCanvas.toBlob(resolve));
+            folder.file('action-view.png', actionBlob);
+            folder.file('action-dismiss.png', actionBlob);
+
+            const content = await zip.generateAsync({type: "blob"});
+            const url = URL.createObjectURL(content);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'caresolis-icons.zip';
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Generate all icons on load
+        const grid = document.getElementById('iconGrid');
+        sizes.forEach(size => {
+            const canvas = createIcon(size);
+            canvases[size] = canvas;
+
+            const card = document.createElement('div');
+            card.className = 'icon-card';
+            card.innerHTML = `
+                <canvas id="icon-${size}" width="${size}" height="${size}"></canvas>
+                <div style="font-size: 14px; color: #94a3b8; margin-bottom: 0.5rem;">
+                    ${size}x${size}
+                </div>
+                <button onclick="downloadIcon(canvases[${size}], 'icon-${size}x${size}.png')">
+                    📥 Download
+                </button>
+            `;
+            
+            const canvasElement = card.querySelector('canvas');
+            canvasElement.getContext('2d').drawImage(canvas, 0, 0);
+            
+            grid.appendChild(card);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,1149 @@
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🌱 Initializing demo data for Caresolis... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🌱 Seeding demo data for: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Demo data seeded successfully! – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] ✅ Multi-patient data seeded: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": null,↵  \"nextScheduled\": \"Today, 15:00\",↵  \"slots\": [↵    {↵      \"time\": \"09:00\",↵    …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": null,
+  \"nextScheduled\": \"Today, 15:00\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"13:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"15:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"21:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"22:15\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 🔍 [Dashboard] Current statusData.slots: – "[↵  {↵    \"time\": \"09:00\",↵    \"status\": \"Closed\",↵    \"escalationLevel\": 0,↵    \"interactionTime\": null,↵    \"isActionable\": false,↵  …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"[
+  {
+    \"time\": \"09:00\",
+    \"status\": \"Closed\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": true
+  },
+  {
+    \"time\": \"13:00\",
+    \"status\": \"Closed\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": true
+  },
+  {
+    \"time\": \"15:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"17:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"21:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"22:15\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  }
+]"
+[Log] ✅ [Dashboard] Backend provides isActionable flags - using backend authority (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 09:00: status="Closed" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 13:00: status="Closed" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 15:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 17:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 21:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 22:15: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Backend-filtered actionable slots: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ [Dashboard] No actionable slots per backend - hiding all action buttons (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] Slot actionability breakdown: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   09:00: status="Closed" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   13:00: status="Closed" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   15:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   17:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   21:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   22:15: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 15:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:49:28 AM" – "(469 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Demo data seeded successfully! – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Error] Source Map loading errors (x23)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Router initialized - All providers moved to App.tsx (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "1742602000000" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⚠️ [Dashboard] No statusData or slots available (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Checking..." (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔄 [Dashboard] Component mounted - forcing status refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache – {city: "Kahului", age: "0min"} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "Kahului", state: "Hawaii", country: "US", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{city: "Kahului", state: "Hawaii", country: "US", timezone: "Pacific/Honolulu", latitude: 20.88953, …}Object
+[Log] 📍 LocationSync: Using cached location – {city: "Kahului", state: "Hawaii", country: "US", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{city: "Kahului", state: "Hawaii", country: "US", timezone: "Pacific/Honolulu", latitude: 20.88953, …}Object
+[Log] 🧑‍⚕️ Caregiver timezone detected: – "America/Los_Angeles" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 📡 Loading all patients from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-65.5ms", rtt: "965.00ms", quality: "good", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{drift: "-65.5ms", rtt: "965.00ms", quality: "good", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: -65.5, lastSyncTimestamp: 1774190994997, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: -65.5, lastSyncTimestamp: 1774190994997, syncQuality: "good", timezone: "America/Los_Angeles", …}Object
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 3 from backend: – "Margaret Foster" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 6, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [PatientContext] ✅ Loaded patient 2 from backend: – "Robert Chen" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded 3 patients from backend (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🎯 Set current patient: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 6, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 6, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 18, validLogCount: 18, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{lookbackDays: 7, relevantLogs: 18, validLogCount: 18, score: 45, avgDrift: "111.72", …}Object
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Checking..." (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:49:53 AM" – "(469 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – ["09:00", "13:00", "15:00", …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+["09:00", "13:00", "15:00", "17:00", "21:00", "22:15"]Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 🔄 Refreshing patient profile from backend SOT... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🔄 Refreshing patient 1 from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 🔄 Refreshing patient profile from backend SOT... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🔄 Refreshing patient 1 from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": null,↵  \"nextScheduled\": \"Today, 15:00\",↵  \"slots\": [↵    {↵      \"time\": \"09:00\",↵    …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": null,
+  \"nextScheduled\": \"Today, 15:00\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Check-In Not Logged\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": true,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"13:00\",
+      \"status\": \"Check-In Not Logged\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": true,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"15:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"21:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"22:15\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Log] 🔍 [Dashboard] Current statusData.slots: – "[↵  {↵    \"time\": \"09:00\",↵    \"status\": \"Check-In Not Logged\",↵    \"escalationLevel\": 0,↵    \"interactionTime\": null,↵    \"isActionable\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"[
+  {
+    \"time\": \"09:00\",
+    \"status\": \"Check-In Not Logged\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": true,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"13:00\",
+    \"status\": \"Check-In Not Logged\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": true,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"15:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"17:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"21:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"22:15\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  }
+]"
+[Log] ✅ [Dashboard] Backend provides isActionable flags - using backend authority (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 09:00: status="Check-In Not Logged" isActionable=true → ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 13:00: status="Check-In Not Logged" isActionable=true → ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 15:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 17:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 21:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 22:15: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Backend-filtered actionable slots: – {count: 2, slots: [{time: "09:00", status: "Check-In Not Logged", isActionable: true}, {time: "13:00", status: "Check-In Not Logged", isActionable: true}]} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Target action slot: – {time: "09:00", status: "Check-In Not Logged", isActionable: true} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Object, Object, Object, Object, Object, Object]Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 15:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:49:53 AM" – "(469 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – ["09:00", "13:00", "15:00", …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+["09:00", "13:00", "15:00", "17:00", "21:00", "22:15"]Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔍 [DASHBOARD] targetActionSlot: – {time: "09:00", status: "Check-In Not Logged", shouldShowAckButton: true} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Check-In Not Logged" → computed="Check-In Not Logged" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Check-In Not Logged" → computed="Check-In Not Logged" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": null,↵  \"nextScheduled\": \"Today, 15:00\",↵  \"slots\": [↵    {↵      \"time\": \"09:00\",↵    …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90, x2)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": null,
+  \"nextScheduled\": \"Today, 15:00\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Check-In Not Logged\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": true,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"13:00\",
+      \"status\": \"Check-In Not Logged\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": true,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"15:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"21:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"22:15\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 18, validLogCount: 18, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{lookbackDays: 7, relevantLogs: 18, validLogCount: 18, score: 45, avgDrift: "111.72", …}Object
+[Log] 🔍 [Dashboard] Current statusData.slots: – "[↵  {↵    \"time\": \"09:00\",↵    \"status\": \"Check-In Not Logged\",↵    \"escalationLevel\": 0,↵    \"interactionTime\": null,↵    \"isActionable\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"[
+  {
+    \"time\": \"09:00\",
+    \"status\": \"Check-In Not Logged\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": true,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"13:00\",
+    \"status\": \"Check-In Not Logged\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": true,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"15:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"17:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"21:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"22:15\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  }
+]"
+[Log] ✅ [Dashboard] Backend provides isActionable flags - using backend authority (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 09:00: status="Check-In Not Logged" isActionable=true → ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 13:00: status="Check-In Not Logged" isActionable=true → ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 15:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 17:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 21:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 22:15: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Backend-filtered actionable slots: – {count: 2, slots: [{time: "09:00", status: "Check-In Not Logged", isActionable: true}, {time: "13:00", status: "Check-In Not Logged", isActionable: true}]} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Target action slot: – {time: "09:00", status: "Check-In Not Logged", isActionable: true} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Object, Object, Object, Object, Object, Object]Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 15:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:49:53 AM" – "(469 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – ["09:00", "13:00", "15:00", …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+["09:00", "13:00", "15:00", "17:00", "21:00", "22:15"]Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔍 [DASHBOARD] targetActionSlot: – {time: "09:00", status: "Check-In Not Logged", shouldShowAckButton: true} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Check-In Not Logged" → computed="Check-In Not Logged" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Check-In Not Logged" → computed="Check-In Not Logged" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 6, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 6, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"vbalqi5nz\",
+        \"time\": \"22:15\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"22:06\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": null,↵  \"nextScheduled\": \"Today, 15:00\",↵  \"slots\": [↵    {↵      \"time\": \"09:00\",↵    …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90, x2)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": null,
+  \"nextScheduled\": \"Today, 15:00\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"13:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"15:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"21:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"22:15\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 18, validLogCount: 18, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{lookbackDays: 7, relevantLogs: 18, validLogCount: 18, score: 45, avgDrift: "111.72", …}Object
+[Log] 🔍 [Dashboard] Current statusData.slots: – "[↵  {↵    \"time\": \"09:00\",↵    \"status\": \"Closed\",↵    \"escalationLevel\": 0,↵    \"interactionTime\": null,↵    \"isActionable\": false,↵  …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"[
+  {
+    \"time\": \"09:00\",
+    \"status\": \"Closed\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": true
+  },
+  {
+    \"time\": \"13:00\",
+    \"status\": \"Closed\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": true
+  },
+  {
+    \"time\": \"15:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"17:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"21:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"22:15\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  }
+]"
+[Log] ✅ [Dashboard] Backend provides isActionable flags - using backend authority (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 09:00: status="Closed" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 13:00: status="Closed" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 15:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 17:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 21:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 22:15: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Backend-filtered actionable slots: – {count: 0, slots: []} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] No actionable slots per backend - hiding all action buttons (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] Slot actionability breakdown: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   09:00: status="Closed" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   13:00: status="Closed" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   15:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   17:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   21:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   22:15: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Object, Object, Object, Object, Object, Object]Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 15:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:49:53 AM" – "(469 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – ["09:00", "13:00", "15:00", …] (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+["09:00", "13:00", "15:00", "17:00", "21:00", "22:15"]Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)

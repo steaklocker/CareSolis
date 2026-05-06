@@ -1,0 +1,438 @@
+[Log] ✅ Demo data seeded successfully! – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ⏱️ [Dashboard] Slot 09:00 is 121 mins past (>60 min window) - excluding (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 09:00: Closed → ⏱️ Too old (121 minutes past, >60 min window) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (119 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (239 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (359 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (599 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – Array (5) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (5)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Using server value: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Multi-patient data seeded: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ⏱️ [Dashboard] Slot 09:00 is 121 mins past (>60 min window) - excluding (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 09:00: Closed → ⏱️ Too old (121 minutes past, >60 min window) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (119 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (239 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (359 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (599 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – Array (5) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (5)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Using server value: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Demo data seeded successfully! – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Error] Source Map loading errors (x23)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ Router initialized - All providers moved to App.tsx (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "1742602000000" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Checking..." (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Using server value: – "Checking..." (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=11:02&t=1774116133663" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=11:02&t=1774116133667" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache – {city: "Kahului", age: "1min"} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "Kahului", state: "Hawaii", country: "US", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{city: "Kahului", state: "Hawaii", country: "US", timezone: "Pacific/Honolulu", latitude: 20.88953, …}Object
+[Log] 📍 LocationSync: Using cached location – {city: "Kahului", state: "Hawaii", country: "US", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{city: "Kahului", state: "Hawaii", country: "US", timezone: "Pacific/Honolulu", latitude: 20.88953, …}Object
+[Log] 🧑‍⚕️ Caregiver timezone detected: – "America/Los_Angeles" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 📡 Loading all patients from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-212.5ms", rtt: "1373.00ms", quality: "poor", …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{drift: "-212.5ms", rtt: "1373.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: -212.5, lastSyncTimestamp: 1774116135036, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: -212.5, lastSyncTimestamp: 1774116135036, syncQuality: "poor", timezone: "America/Los_Angeles", …}Object
+[Log] [PatientContext] ✅ Loaded patient 2 from backend: – "Robert Chen" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 3 from backend: – "Margaret Foster" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded 3 patients from backend (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🎯 Set current patient: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"10:16\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"10:16\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 21:00", lastInteraction: null}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 21:00", lastInteraction: null}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 16, validLogCount: 16, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{lookbackDays: 7, relevantLogs: 16, validLogCount: 16, score: 46, avgDrift: "121.25", …}Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-21T18:02:15.300Z", currentMinutes: 662, totalSlots: 5, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{currentTime: "2026-03-21T18:02:15.300Z", currentMinutes: 662, totalSlots: 5, slots: [{time: "09:00", status: "Closed"}, {time: "13:00", status: "Scheduled"}, {time: "15:00", status: "Scheduled"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] ⏱️ [Dashboard] Slot 09:00 is 122 mins past (>60 min window) - excluding (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 0, slots: []} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 09:00: Closed → ⏱️ Too old (122 minutes past, >60 min window) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (118 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (238 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (358 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (598 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (5) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Object, Object, Object, Object, Object]Array (5)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Using server value: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=11:02&t=1774116135393" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 🔄 Refreshing patient profile from backend SOT... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🔄 Refreshing patient 1 from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=11:02&t=1774116135397" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 🔄 Refreshing patient profile from backend SOT... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] 🔄 Refreshing patient 1 from backend... (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"10:16\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Loaded patient 1 from backend: – "Eleanor Whitmore" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [PatientContext] ✅ Refreshed patient 1 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-21\",
+  \"localTime\": \"10:16\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\",
+  \"patientLocation\": {
+    \"city\": \"Kahului\",
+    \"state\": \"Hawaii\",
+    \"country\": \"US\",
+    \"timezone\": \"Pacific/Honolulu\"
+  },
+  \"patientTimezone\": \"Pacific/Honolulu\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 21:00", lastInteraction: null}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 21:00", lastInteraction: null}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Closed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 16, validLogCount: 16, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{lookbackDays: 7, relevantLogs: 16, validLogCount: 16, score: 46, avgDrift: "121.25", …}Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-21T18:02:17.620Z", currentMinutes: 662, totalSlots: 5, …} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+{currentTime: "2026-03-21T18:02:17.620Z", currentMinutes: 662, totalSlots: 5, slots: [{time: "09:00", status: "Closed"}, {time: "13:00", status: "Scheduled"}, {time: "15:00", status: "Scheduled"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] ⏱️ [Dashboard] Slot 09:00 is 122 mins past (>60 min window) - excluding (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 0, slots: []} (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 09:00: Closed → ⏱️ Too old (122 minutes past, >60 min window) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (118 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (238 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (358 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (598 minutes from now) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (5) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Object, Object, Object, Object, Object]Array (5)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Using server value: – "Today, 21:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Closed" → computed="Closed" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)

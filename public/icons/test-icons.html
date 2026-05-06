@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareSolis PWA Icon Test</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+        h1 {
+            color: #10b981;
+            font-size: 2rem;
+            margin: 0;
+        }
+        .status {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 1.5rem;
+            max-width: 800px;
+            width: 100%;
+        }
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #334155;
+        }
+        .status-item:last-child {
+            border-bottom: none;
+        }
+        .status-label {
+            font-weight: 600;
+            color: #cbd5e1;
+        }
+        .status-value {
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .pass {
+            color: #10b981;
+        }
+        .fail {
+            color: #f43f5e;
+        }
+        .icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .icon-card {
+            background: #1e293b;
+            border: 1px solid #334155;
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .icon-card:hover {
+            transform: scale(1.05);
+            border-color: #10b981;
+        }
+        .icon-card img {
+            width: 64px;
+            height: 64px;
+            margin: 0 auto 0.5rem;
+            display: block;
+        }
+        .icon-label {
+            font-size: 0.75rem;
+            color: #94a3b8;
+        }
+        button {
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0.5rem;
+        }
+        button:hover {
+            background: #059669;
+        }
+        .button-secondary {
+            background: #3b82f6;
+        }
+        .button-secondary:hover {
+            background: #2563eb;
+        }
+        .instructions {
+            background: #1e293b;
+            border-left: 4px solid #10b981;
+            padding: 1rem;
+            border-radius: 4px;
+            max-width: 800px;
+            width: 100%;
+        }
+        .instructions h3 {
+            margin-top: 0;
+            color: #10b981;
+        }
+        .instructions ol {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+        .instructions li {
+            margin: 0.5rem 0;
+        }
+        code {
+            background: #0f172a;
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            color: #10b981;
+        }
+    </style>
+</head>
+<body>
+    <h1>🏥 CareSolis PWA - Icon Test</h1>
+    
+    <div class="status">
+        <h3 style="margin-top: 0; color: #10b981;">📊 PWA Status</h3>
+        <div class="status-item">
+            <span class="status-label">Service Worker:</span>
+            <span class="status-value" id="sw-status">Checking...</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Manifest:</span>
+            <span class="status-value" id="manifest-status">Checking...</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Installable:</span>
+            <span class="status-value" id="install-status">Checking...</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Icons Loaded:</span>
+            <span class="status-value" id="icons-status">Checking...</span>
+        </div>
+        <div class="status-item">
+            <span class="status-label">Cache:</span>
+            <span class="status-value" id="cache-status">Checking...</span>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h3>✅ How to Install CareSolis PWA</h3>
+        <ol>
+            <li>Look for <strong>"Install"</strong> button (⊕) in your browser's URL bar</li>
+            <li>Click it to install CareSolis as a standalone app</li>
+            <li>Or use browser menu → "Install CareSolis"</li>
+            <li>App will open in fullscreen mode (no browser UI)</li>
+            <li>Find it in Start Menu (Windows) or Applications (Mac)</li>
+        </ol>
+    </div>
+
+    <div>
+        <button onclick="testInstall()">🔄 Test Install Prompt</button>
+        <button onclick="testOffline()" class="button-secondary">🔌 Test Offline Mode</button>
+        <button onclick="runLighthouse()" class="button-secondary">📊 Run Lighthouse Audit</button>
+    </div>
+
+    <h2 style="color: #10b981;">📱 All PWA Icons</h2>
+    <div class="icon-grid" id="iconGrid"></div>
+
+    <script>
+        const icons = [
+            { src: 'icon.svg', label: 'Base Icon' },
+            { src: 'icon-72x72.svg', label: '72×72' },
+            { src: 'icon-96x96.svg', label: '96×96' },
+            { src: 'icon-128x128.svg', label: '128×128' },
+            { src: 'icon-144x144.svg', label: '144×144' },
+            { src: 'icon-152x152.svg', label: '152×152' },
+            { src: 'icon-192x192.svg', label: '192×192' },
+            { src: 'icon-384x384.svg', label: '384×384' },
+            { src: 'icon-512x512.svg', label: '512×512' },
+            { src: 'badge-72x72.svg', label: 'Badge' },
+            { src: 'action-view.svg', label: 'Action View' },
+            { src: 'action-dismiss.svg', label: 'Action Dismiss' }
+        ];
+
+        // Display icons
+        const grid = document.getElementById('iconGrid');
+        icons.forEach(icon => {
+            const card = document.createElement('div');
+            card.className = 'icon-card';
+            card.innerHTML = `
+                <img src="/icons/${icon.src}" alt="${icon.label}" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIGZpbGw9IiNmNDNmNWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iMjQiPng8L3RleHQ+PC9zdmc+'">
+                <div class="icon-label">${icon.label}</div>
+            `;
+            grid.appendChild(card);
+        });
+
+        // Check PWA status
+        async function checkStatus() {
+            // Service Worker
+            if ('serviceWorker' in navigator) {
+                const reg = await navigator.serviceWorker.getRegistration();
+                document.getElementById('sw-status').innerHTML = reg 
+                    ? '<span class="pass">✅ Active</span>' 
+                    : '<span class="fail">❌ Not Registered</span>';
+            } else {
+                document.getElementById('sw-status').innerHTML = '<span class="fail">❌ Not Supported</span>';
+            }
+
+            // Manifest
+            fetch('/manifest.json')
+                .then(r => r.json())
+                .then(manifest => {
+                    document.getElementById('manifest-status').innerHTML = 
+                        `<span class="pass">✅ Loaded (${manifest.icons.length} icons)</span>`;
+                })
+                .catch(() => {
+                    document.getElementById('manifest-status').innerHTML = '<span class="fail">❌ Failed to Load</span>';
+                });
+
+            // Installable
+            let installable = false;
+            window.addEventListener('beforeinstallprompt', (e) => {
+                installable = true;
+                document.getElementById('install-status').innerHTML = '<span class="pass">✅ Ready to Install</span>';
+            });
+
+            setTimeout(() => {
+                if (!installable) {
+                    if (window.matchMedia('(display-mode: standalone)').matches) {
+                        document.getElementById('install-status').innerHTML = '<span class="pass">✅ Already Installed</span>';
+                    } else {
+                        document.getElementById('install-status').innerHTML = '<span class="fail">⚠️ Check Browser Compatibility</span>';
+                    }
+                }
+            }, 1000);
+
+            // Icons
+            let iconsLoaded = 0;
+            const iconPromises = icons.map(icon => 
+                fetch(`/icons/${icon.src}`)
+                    .then(r => r.ok && iconsLoaded++)
+                    .catch(() => {})
+            );
+            
+            Promise.all(iconPromises).then(() => {
+                document.getElementById('icons-status').innerHTML = 
+                    `<span class="pass">✅ ${iconsLoaded}/${icons.length}</span>`;
+            });
+
+            // Cache
+            if ('caches' in window) {
+                caches.keys().then(cacheNames => {
+                    const hasPWACache = cacheNames.some(name => name.includes('caresolis'));
+                    document.getElementById('cache-status').innerHTML = hasPWACache
+                        ? '<span class="pass">✅ Active</span>'
+                        : '<span class="fail">⚠️ Not Cached Yet</span>';
+                });
+            } else {
+                document.getElementById('cache-status').innerHTML = '<span class="fail">❌ Not Supported</span>';
+            }
+        }
+
+        function testInstall() {
+            if (window.matchMedia('(display-mode: standalone)').matches) {
+                alert('✅ App is already installed!\n\nCheck your Start Menu (Windows) or Applications folder (Mac) for "CareSolis".');
+            } else {
+                alert('📱 To install:\n\n1. Look for "Install" button (⊕) in URL bar\n2. Or open browser menu → "Install CareSolis"\n3. App will open in fullscreen\n\n(If button doesn\'t appear, refresh the page)');
+            }
+        }
+
+        function testOffline() {
+            alert('🔌 To test offline mode:\n\n1. Open DevTools (F12)\n2. Go to Network tab\n3. Check "Offline" checkbox\n4. Refresh the page\n5. App should still work!\n\nOrange "Offline Mode" banner will appear.');
+        }
+
+        function runLighthouse() {
+            alert('📊 To run Lighthouse audit:\n\n1. Open DevTools (F12)\n2. Go to Lighthouse tab\n3. Select "Progressive Web App"\n4. Click "Generate report"\n5. Should score 90-100%!\n\n(Make sure app is running on HTTPS for accurate results)');
+        }
+
+        // Check status on load
+        checkStatus();
+
+        // Log to console
+        console.log('🏥 CareSolis PWA Test Page');
+        console.log('✅ All icons should appear above');
+        console.log('✅ Check PWA status in the cards');
+        console.log('✅ Look for install button in browser URL bar');
+        console.log('');
+        console.log('📝 Quick Tests:');
+        console.log('  - Service Worker: navigator.serviceWorker.getRegistration()');
+        console.log('  - Manifest: fetch("/manifest.json").then(r => r.json()).then(console.log)');
+        console.log('  - Cache: caches.keys().then(console.log)');
+        console.log('  - Installable: window.matchMedia("(display-mode: standalone)").matches');
+    </script>
+</body>
+</html>

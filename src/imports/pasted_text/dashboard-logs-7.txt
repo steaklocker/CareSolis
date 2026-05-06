@@ -1,0 +1,129 @@
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-45e1a1bbf1543603.min.js.br, line 3, x4)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] ⏰ TimeSync: Sync complete – {drift: "127.5ms", rtt: "295.00ms", quality: "good", …} (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+{drift: "127.5ms", rtt: "295.00ms", quality: "good", timezone: "America/Los_Angeles"}Object
+[Log] [fetchStatus] 🌍 Patient timezone: America/Los_Angeles (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] [fetchStatus] 📅 Using patient timezone: America/Los_Angeles, date: 2026-04-27, time: 17:04 (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] [fetchStatus] 🌐 Calling: https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&date=2026-04-27&localTime=17:04&t=1777334678551 (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 12, validLogCount: 12, …} (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+{lookbackDays: 7, relevantLogs: 12, validLogCount: 12, score: 44, avgDrift: "45.33", …}Object
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": \"2026-04-27T21:42:23.417Z\",↵  \"nextScheduled\": \"Today, 18:54\",↵  \"slots\": [↵    {↵    …" (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": \"2026-04-27T21:42:23.417Z\",
+  \"nextScheduled\": \"Today, 18:54\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"12:00\",
+      \"status\": \"Check-In Delayed\",
+      \"escalationLevel\": 2,
+      \"interactionTime\": \"2026-04-27T19:41:01.867Z\",
+      \"isActionable\": false,
+      \"isCompleted\": true,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"14:32\",
+      \"status\": \"Check-In Delayed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": \"2026-04-27T21:42:23.417Z\",
+      \"isActionable\": false,
+      \"isCompleted\": true,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:05\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"18:54\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-45e1a1bbf1543603.min.js.br, line 3, x8)
+[Log] 🔵 Fetching source code from public directory... (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] 🔵 Loaded source code: 3289 bytes (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] ✅ Source code downloaded successfully (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-45e1a1bbf1543603.min.js.br, line 3, x4)
+[Log] ⏰ TimeSync: Sync complete – {drift: "160.5ms", rtt: "349.00ms", quality: "good", …} (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+{drift: "160.5ms", rtt: "349.00ms", quality: "good", timezone: "America/Los_Angeles"}Object
+[Log] [fetchStatus] 🌍 Patient timezone: America/Los_Angeles (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] [fetchStatus] 📅 Using patient timezone: America/Los_Angeles, date: 2026-04-27, time: 17:05 (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] [fetchStatus] 🌐 Calling: https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&date=2026-04-27&localTime=17:05&t=1777334736814 (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – {lookbackDays: 7, relevantLogs: 12, validLogCount: 12, …} (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+{lookbackDays: 7, relevantLogs: 12, validLogCount: 12, score: 44, avgDrift: "45.33", …}Object
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"pending\",↵  \"lastInteraction\": \"2026-04-27T21:42:23.417Z\",↵  \"nextScheduled\": \"Today, 17:05\",↵  \"slots\": [↵    {↵    …" (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
+"{
+  \"status\": \"pending\",
+  \"lastInteraction\": \"2026-04-27T21:42:23.417Z\",
+  \"nextScheduled\": \"Today, 17:05\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Closed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": true
+    },
+    {
+      \"time\": \"12:00\",
+      \"status\": \"Check-In Delayed\",
+      \"escalationLevel\": 2,
+      \"interactionTime\": \"2026-04-27T19:41:01.867Z\",
+      \"isActionable\": false,
+      \"isCompleted\": true,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"14:32\",
+      \"status\": \"Check-In Delayed\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": \"2026-04-27T21:42:23.417Z\",
+      \"isActionable\": false,
+      \"isCompleted\": true,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:05\",
+      \"status\": \"ReminderActive\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": true,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"18:54\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-45e1a1bbf1543603.min.js.br, line 3, x2)
+[Log] 🧑‍⚕️ Caregiver timezone detected: – "America/Los_Angeles" (code_components_preview_iframe-66f9dade9488530b.min.js.br, line 106)
