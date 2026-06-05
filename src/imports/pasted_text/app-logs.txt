@@ -1,0 +1,170 @@
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 Location updated: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 LocationSync: Using cached location (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] targetActionSlot calculation: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] targetActionSlot calculation: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initialization complete (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "${Date.now()}" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] 📍 Location updated: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] 📍 LocationSync: Using cached location – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Sync complete – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Initialization complete – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"16:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-17\",
+  \"localTime\": \"15:52\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"16:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-17\",
+  \"localTime\": \"15:52\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Error] Source Map loading errors (x13)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-308.5ms", rtt: "1355.00ms", quality: "poor", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{drift: "-308.5ms", rtt: "1355.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "pending", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Check-In Delayed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "pending", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Check-In Delayed", escalationLevel: 1}, {time: "16:00", status: "ReminderActive", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 16:00", lastInteraction: "2026-03-17T22:48:43.110Z"}Object

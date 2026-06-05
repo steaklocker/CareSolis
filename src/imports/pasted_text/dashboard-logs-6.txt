@@ -1,0 +1,214 @@
+[Log]   13:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   15:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   17:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   21:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   22:15: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:56:55 AM" – "(476 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [fetchStatus] 📅 Using patient timezone: America/Los_Angeles, date: 2026-03-22, time: 07:57 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [fetchStatus] 🌐 Calling: https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&date=2026-03-22&localTime=07:57&t=1774191426514 (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [STABILITY CALC] Dashboard calculation: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] [fetchStatus] ✅ Received from backend: – "{↵  \"status\": \"nominal\",↵  \"lastInteraction\": null,↵  \"nextScheduled\": \"Today, 09:00\",↵  \"slots\": [↵    {↵      \"time\": \"09:00\",↵    …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"{
+  \"status\": \"nominal\",
+  \"lastInteraction\": null,
+  \"nextScheduled\": \"Today, 09:00\",
+  \"slots\": [
+    {
+      \"time\": \"09:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"13:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"15:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"17:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"21:00\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    },
+    {
+      \"time\": \"22:15\",
+      \"status\": \"Scheduled\",
+      \"escalationLevel\": 0,
+      \"interactionTime\": null,
+      \"isActionable\": false,
+      \"isCompleted\": false,
+      \"isClosed\": false
+    }
+  ]
+}"
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔍 [Dashboard] Current statusData.slots: – "[↵  {↵    \"time\": \"09:00\",↵    \"status\": \"Scheduled\",↵    \"escalationLevel\": 0,↵    \"interactionTime\": null,↵    \"isActionable\": false,↵  …" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+"[
+  {
+    \"time\": \"09:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"13:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"15:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"17:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"21:00\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  },
+  {
+    \"time\": \"22:15\",
+    \"status\": \"Scheduled\",
+    \"escalationLevel\": 0,
+    \"interactionTime\": null,
+    \"isActionable\": false,
+    \"isCompleted\": false,
+    \"isClosed\": false
+  }
+]"
+[Log] ✅ [Dashboard] Backend provides isActionable flags - using backend authority (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 09:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 13:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 15:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 17:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 21:00: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎯 [Dashboard] Slot 22:15: status="Scheduled" isActionable=false → NOT ACTIONABLE (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Backend-filtered actionable slots: – Object (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Object
+[Log] ✅ [Dashboard] No actionable slots per backend - hiding all action buttons (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] Slot actionability breakdown: (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   09:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   13:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   15:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   17:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   21:00: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log]   22:15: status="Scheduled" isActionable=false (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 📊 [Dashboard] Server nextScheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Calculating nextScheduled from settings (SOT), ignoring server value (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Current time: – "7:56:55 AM" – "(476 minutes)" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🔧 [Dashboard] Enabled slots: – Array (6) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+Array (6)
+[Log] 🔧 [Dashboard] Checking slot 09:00 (540 mins) - future: true (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ✅ [Dashboard] Next scheduled: – "Today, 09:00" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 5 (22:15): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Cleaning up auto-refresh (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Log] ⏲️ [Dashboard] Setting up auto-refresh (every 30 seconds) (code_components_preview_iframe-1f2144f4d81fada2.min.js.br, line 90)
+[Error] Source Map loading errors (x20)

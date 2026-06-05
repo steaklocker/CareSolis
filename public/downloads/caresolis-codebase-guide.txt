@@ -1,0 +1,403 @@
+================================================================================
+CARESOLIS COMPLETE SOURCE CODE GUIDE
+Version: 1.3.0 STABLE
+Generated: April 27, 2026
+================================================================================
+
+TABLE OF CONTENTS
+================================================================================
+1. Project Overview
+2. Directory Structure
+3. Installation Instructions
+4. Technology Stack
+5. Key Files Reference
+6. Configuration Files
+7. Frontend Structure
+8. Backend Structure
+9. Database Schema
+10. How to Run the Application
+
+================================================================================
+1. PROJECT OVERVIEW
+================================================================================
+
+CareSolis is a medication adherence monitoring platform built with:
+- Frontend: React + TypeScript + Tailwind CSS v4
+- Backend: Deno + Hono + Supabase Edge Functions
+- Database: PostgreSQL (via Supabase)
+- Build Tool: Vite
+
+Total Files: 376 source files
+Project Size: ~2.3 MB (excluding node_modules)
+
+================================================================================
+2. DIRECTORY STRUCTURE
+================================================================================
+
+code/
+├── src/
+│   ├── app/
+│   │   ├── components/          # React components
+│   │   ├── pages/               # Page components
+│   │   ├── context/             # React Context providers
+│   │   ├── hooks/               # Custom React hooks
+│   │   ├── utils/               # Utility functions
+│   │   └── routes.tsx           # React Router configuration
+│   └── styles/
+│       ├── index.css            # Global styles
+│       ├── theme.css            # Tailwind theme tokens
+│       └── fonts.css            # Font imports
+│
+├── supabase/
+│   └── functions/
+│       └── server/
+│           ├── index.tsx        # Main server entry point
+│           ├── kv_store.tsx     # Database abstraction layer
+│           ├── twilio_sms.tsx   # SMS notification service
+│           └── auth_routes.tsx  # Authentication routes
+│
+├── public/                      # Static assets
+├── utils/                       # Shared utilities
+├── package.json                 # Dependencies
+├── tsconfig.json                # TypeScript configuration
+└── README.md                    # Project documentation
+
+================================================================================
+3. INSTALLATION INSTRUCTIONS
+================================================================================
+
+STEP 1: Extract Files (if you have the archive)
+------------------------------------------------
+If you have the .tar.gz file, extract with:
+  tar -xzf caresolis-complete-source-code.tar.gz
+
+Or use a third-party tool like The Unarchiver for Mac:
+  https://theunarchiver.com/
+
+STEP 2: Install Dependencies
+-----------------------------
+cd code
+pnpm install
+
+If you don't have pnpm:
+  npm install -g pnpm
+
+STEP 3: Configure Environment
+------------------------------
+Set up Supabase credentials (ask admin for these):
+- SUPABASE_URL
+- SUPABASE_ANON_KEY
+- SUPABASE_SERVICE_ROLE_KEY
+
+Optional (for SMS notifications):
+- TWILIO_ACCOUNT_SID
+- TWILIO_AUTH_TOKEN
+- TWILIO_PHONE_NUMBER
+
+STEP 4: Start Development Server
+---------------------------------
+pnpm dev
+
+The app will open at: http://localhost:5173
+
+STEP 5: Login
+-------------
+Default credentials:
+- Email: admin@caresolis.com
+- Password: (ask admin)
+
+================================================================================
+4. TECHNOLOGY STACK
+================================================================================
+
+FRONTEND
+--------
+- React 18+              (UI framework)
+- TypeScript             (Type-safe JavaScript)
+- Vite                   (Build tool & dev server)
+- Tailwind CSS v4        (Utility-first CSS)
+- React Router v6        (Client-side routing)
+- Lucide React           (Icon library)
+- Sonner                 (Toast notifications)
+- React DnD              (Drag and drop)
+
+BACKEND
+-------
+- Deno Runtime           (Modern JavaScript/TypeScript runtime)
+- Hono Framework         (Lightweight web framework)
+- Supabase Edge Functions (Serverless compute)
+- Twilio                 (SMS notifications - optional)
+
+DATABASE
+--------
+- PostgreSQL             (via Supabase)
+- Key-Value Store        (Custom abstraction over PostgreSQL)
+- Supabase Auth          (Authentication)
+- Supabase Storage       (File storage)
+
+DEVELOPMENT TOOLS
+-----------------
+- pnpm                   (Package manager)
+- TypeScript Compiler    (Type checking)
+- ESLint                 (Code linting)
+
+================================================================================
+5. KEY FILES REFERENCE
+================================================================================
+
+CORE CONFIGURATION
+------------------
+/package.json                    - Dependencies and scripts
+/tsconfig.json                   - TypeScript configuration
+/vite.config.ts                  - Vite build configuration
+/tailwind.config.js              - Tailwind CSS configuration
+
+ENTRY POINTS
+------------
+/src/app/App.tsx                 - Main React application
+/src/app/routes.tsx              - Route definitions
+/supabase/functions/server/index.tsx - Backend server
+
+VERSION CONTROL
+---------------
+/src/version.ts                  - Version and FDA signature
+
+AUTHENTICATION
+--------------
+/src/app/context/AuthContext.tsx - Auth state management
+/src/app/pages/Login.tsx         - Login page
+
+DASHBOARD
+---------
+/src/app/pages/Dashboard.tsx     - Main dashboard
+/src/app/components/Header.tsx   - Top navigation
+/src/app/components/Sidebar.tsx  - Side navigation
+
+ESCALATION SYSTEM
+-----------------
+/supabase/functions/server/index.tsx (lines 700-900) - Escalation logic
+/src/app/pages/EscalationSettings.tsx - Escalation configuration UI
+
+NOTIFICATIONS
+-------------
+/src/app/pages/NotificationSettings.tsx - SMS notification settings
+/supabase/functions/server/twilio_sms.tsx - Twilio SMS integration
+
+================================================================================
+6. CONFIGURATION FILES
+================================================================================
+
+package.json
+------------
+Main dependencies:
+- react: ^18.3.1
+- react-router: ^7.5.0
+- tailwindcss: ^4.0.0-beta.10
+- typescript: ^5.7.3
+- vite: ^6.2.3
+
+Scripts:
+- pnpm dev         - Start development server
+- pnpm build       - Build for production
+- pnpm preview     - Preview production build
+
+tsconfig.json
+-------------
+- Target: ES2020
+- Module: ESNext
+- Strict mode enabled
+- JSX: react-jsx
+
+================================================================================
+7. FRONTEND STRUCTURE
+================================================================================
+
+PAGES (src/app/pages/)
+----------------------
+Dashboard.tsx                - Main dashboard with medication ring
+EscalationSettings.tsx       - Configure escalation protocol
+NotificationSettings.tsx     - SMS notification preferences
+CareGiverManual.tsx          - User documentation
+MedicationManager.tsx        - Medication schedule management
+CalendarView.tsx             - Calendar interface
+CareCoordination.tsx         - Care Circle management
+SystemsInfrastructure.tsx    - Technical documentation
+HelpCenter.tsx               - Help and documentation hub
+
+COMPONENTS (src/app/components/)
+---------------------------------
+Header.tsx                   - Top navigation bar
+Sidebar.tsx                  - Side navigation menu
+BottomNav.tsx                - Mobile bottom navigation
+NotificationCenter.tsx       - Notification bell
+TimeSyncIndicator.tsx        - Time synchronization status
+ThemeProvider.tsx            - Dark mode provider
+ErrorBoundary.tsx            - Error handling
+
+CONTEXT (src/app/context/)
+---------------------------
+AuthContext.tsx              - Authentication state
+PatientContext.tsx           - Patient data
+UserRoleContext.tsx          - User role (admin/caregiver)
+CaresolisContext.tsx         - Global app state
+
+================================================================================
+8. BACKEND STRUCTURE
+================================================================================
+
+SERVER (supabase/functions/server/)
+------------------------------------
+index.tsx                    - Main server with all routes
+kv_store.tsx                 - Key-value database abstraction
+twilio_sms.tsx               - SMS notification service
+auth_routes.tsx              - Authentication endpoints
+onboarding.tsx               - User onboarding flow
+
+KEY ROUTES
+----------
+GET  /status                 - Server health check
+GET  /events                 - Get today's medication events
+POST /interact               - Log medication interaction
+POST /acknowledge            - Acknowledge escalation
+GET  /contacts               - Get Care Circle contacts
+GET  /notification-preferences - Get notification settings
+POST /notification-preferences - Save notification settings
+POST /test-notification      - Send test SMS
+
+ESCALATION ENGINE
+-----------------
+Location: index.tsx (lines 700-900)
+- Runs every 30 seconds via cron
+- Escalation levels: L1 (T+15), L2 (T+30), L3 (T+60)
+- Auto-close after 60 minutes
+- SMS notifications at each level
+
+================================================================================
+9. DATABASE SCHEMA
+================================================================================
+
+KEY-VALUE STORE KEYS
+--------------------
+patient:{id}:config           - System configuration
+patient:{id}:events:{date}    - Daily medication events
+patient:{id}:contacts         - Care Circle contacts
+patient:{id}:profile          - Patient profile
+notification:preferences:{id} - Notification settings
+audit:{timestamp}             - Audit logs
+
+CONFIGURATION STRUCTURE
+-----------------------
+{
+  gracePeriod: 0,             // No grace period
+  level1Offset: 15,           // L1 at T+15 min
+  level2Offset: 30,           // L2 at T+30 min
+  level3Offset: 60,           // L3 at T+60 min
+  schedule: ["09:00", "12:00", "17:00", "21:00"],
+  vacationMode: { enabled: false }
+}
+
+EVENT STRUCTURE
+---------------
+{
+  id: "uuid",
+  scheduledTime: "09:00",
+  status: "Scheduled" | "ReminderActive" | "EscalationLevel1" | 
+          "EscalationLevel2" | "EscalationLevel3" | "Closed",
+  escalationLevel: 0-3,
+  logs: [{ timestamp, level, action }]
+}
+
+================================================================================
+10. HOW TO RUN THE APPLICATION
+================================================================================
+
+DEVELOPMENT MODE
+----------------
+1. Install dependencies:
+   pnpm install
+
+2. Start dev server:
+   pnpm dev
+
+3. Open browser:
+   http://localhost:5173
+
+4. Login with admin credentials
+
+PRODUCTION BUILD
+----------------
+1. Build the app:
+   pnpm build
+
+2. Preview production build:
+   pnpm preview
+
+TROUBLESHOOTING
+---------------
+Issue: Port 5173 already in use
+Solution: Kill the process or change port in vite.config.ts
+
+Issue: Supabase connection error
+Solution: Check environment variables are set correctly
+
+Issue: SMS not sending
+Solution: Configure Twilio credentials or check logs
+
+Issue: Build errors
+Solution: Clear cache and reinstall:
+  rm -rf node_modules dist .vite
+  pnpm install
+  pnpm dev
+
+================================================================================
+IMPORTANT FILES TO REVIEW FIRST
+================================================================================
+
+1. /src/app/pages/Dashboard.tsx
+   - Main user interface
+   - Medication ring visualization
+   - Escalation status display
+
+2. /supabase/functions/server/index.tsx
+   - All backend logic
+   - Escalation engine (lines 700-900)
+   - API endpoints
+
+3. /src/version.ts
+   - Current version: v1.3.0
+   - FDA signature: CARESOLIS_RELEASE_SIG_10A
+
+4. /src/app/components/Header.tsx
+   - Top navigation
+   - FDA badge (currently commented out)
+
+5. /src/app/pages/NotificationSettings.tsx
+   - SMS notification configuration
+   - New feature in v1.3.0
+
+================================================================================
+GETTING HELP
+================================================================================
+
+Documentation:
+- User Manual: Help Center → User Manual
+- Technical Docs: Help Center → Systems Infrastructure
+- API Reference: Help Center → Miscellaneous Reports
+
+Support:
+- Check README.md for latest updates
+- Review CHANGELOG.md for version history
+- Contact system administrator for credentials
+
+================================================================================
+END OF GUIDE
+================================================================================
+
+For the complete source code files, you need to access the actual project
+directory. This guide provides the structure and key information to understand
+the codebase.
+
+To get individual file contents, navigate to the directories listed above and
+open the files in your code editor.
+
+================================================================================

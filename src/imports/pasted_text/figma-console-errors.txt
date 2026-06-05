@@ -1,0 +1,454 @@
+[Error] Failed to load resource: Could not connect to the server. (version, line 0)
+[Warning] Statsig is not ready to log exposures, will retry in 1 seconds (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)
+[Info] Autosave – "Changes not available or already claimed by another tab" – undefined (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Warning] The page at https://www.figma.com/make/FtzISRwMF78mXYHbksacxY/Care-Solis-US2026?p=f&t=gPPxfF7kh4fe4cfa-0 requested insecure content from chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/images/icon16.png. This content was automatically upgraded and should be served over HTTPS. (vendor-core-83c17265f2588e9e.min.js.br, line 11)
+
+[Warning] [blocked] The page at https://www.figma.com/make/FtzISRwMF78mXYHbksacxY/Care-Solis-US2026?p=f&t=gPPxfF7kh4fe4cfa-0 requested insecure content from chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/images/icon16.png. This content was blocked and must be served over HTTPS. (vendor-core-83c17265f2588e9e.min.js.br, line 11)
+
+[Info] [FullscreenApp] calling setEditorTheme and setting preference dark (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Error] Cross-origin redirection to https://i2.wp.com/s3-alpha.figma.com/static/user_c_v2.png?ssl=1 denied by Cross-Origin Resource Sharing policy: Origin https://www.figma.com is not allowed by Access-Control-Allow-Origin. Status code: 302
+[Error] Cannot load image https://www.gravatar.com/avatar/693f9f0f49f809e276bbc6c1b4d2dc78?size=240&default=https%3A%2F%2Fs3-alpha.figma.com%2Fstatic%2Fuser_c_v2.png?c=1 due to access control checks. (x2)
+[Error] Failed to load resource: Cross-origin redirection to https://i2.wp.com/s3-alpha.figma.com/static/user_c_v2.png?ssl=1 denied by Cross-Origin Resource Sharing policy: Origin https://www.figma.com is not allowed by Access-Control-Allow-Origin. Status code: 302 (693f9f0f49f809e276bbc6c1b4d2dc78, line 0)
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/d5348ada5d16350db6d8222b2a636000e01c577c/spell_check_worker-7ed1a248fc4efe10.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/42fa247e90fd5a29d4395b929548b1ee40cdfb57/vendor-9815c7a80644aef6.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/vendor-e9dcb5e47a8032a1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/svg-97c819d2f8b50669.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c7e91414a5c21bf13aba9551d938ed86ebb232cd/svg-3bd408c59c65756e.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a2cb707601ea7407c0f4899c8cf3c0a254332021/3191-f16d88e7f4a7e641.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/5307-b30273e007720073.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c7e91414a5c21bf13aba9551d938ed86ebb232cd/vendor-f9166ccd585afd5e.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/42fa247e90fd5a29d4395b929548b1ee40cdfb57/vendor-40e7ce35e2f38bab.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8543b75d61fe07c861c7486dfc07884553e07030/4756-469760fc665cb9aa.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/3896-8ed59d5ba5133cb7.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/vendor-ed3c0542e193c904.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/fb937d2a75264872dd577313838b222d290a28be/svg-dc121f92010ebbb3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/8690f5fcf5d7af11006d96728791647d0e0a85cf/vendor-843fcfb7285ea33d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2d13d92081e723664b070d9f09a53373635267d6/vendor-2fc693df65ea962d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/ae84e838c4a0af391e9cfbc054d0728f239954a6/vendor-9192a5af6dd894e3.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/0c16330d98ed1308a46ca9d7d1121769331b9e67/vendor-fb4a1cc09c808238.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/5315-f24f7e9e4c987735.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/1224-3341e5ee740f9424.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a35e99de676ad6a8d4ccc9377c44df6647e23fac/3290-f93104818985098d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/19142e9bc5180d9b194f48f67c8c54a20add113a/7345-77337b5d62ba285b.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a35e99de676ad6a8d4ccc9377c44df6647e23fac/4339-ff0042cfc4da6c28.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/vendor-68cd2ace209d97eb.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/6453-6ce5e635af41a33c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/940032c6-70779ac0b567b6ab.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/1086-578cb8c75ed44bb6.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/19142e9bc5180d9b194f48f67c8c54a20add113a/5860-cabbb329c26406ac.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2a029db776fe027cfe13d137ee529bdb212a8314/9078-de9727acc46eba80.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/f958fd633e9fc7be397b95a4669b6794e054a007/182-a2a3e500b1c8d3b8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a35e99de676ad6a8d4ccc9377c44df6647e23fac/8094-84d81a551a242695.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a2cb707601ea7407c0f4899c8cf3c0a254332021/9688-2877589b1fabff09.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/a2cb707601ea7407c0f4899c8cf3c0a254332021/5228-8361fd2f20eac9ac.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/1154-976b319082a1613d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2a029db776fe027cfe13d137ee529bdb212a8314/3298-4157f1242492adb5.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/2600-40395ab5dc83a232.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/1684-db519aee4b277f35.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/1835-5f9f4995ddf57f2f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/2a029db776fe027cfe13d137ee529bdb212a8314/779-8e7defa96d25b019.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/fb937d2a75264872dd577313838b222d290a28be/8886-cd1dc8af7ba5670d.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/9011-64aca3ada5da3272.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/852-59e1a9f49882cfe2.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/fb937d2a75264872dd577313838b222d290a28be/vendor-a3172ba722ec4e21.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/4097-d7fbb708fbc0ca7f.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/d5348ada5d16350db6d8222b2a636000e01c577c/image_io_worker-566e5d2b1203a52a.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/4ca415fc3ab522c47e7f4e968dfcce93ede5d5e3/vendor-b8cdd02c89eaedec.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/5063-50f1e331dbd54f17.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/6576-e88c9a21e7c54605.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/9523-43a2c8d84e1f088c.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/beaaedc7ff2eb3e83c1a3eb60c316950ff1b5fa3/9638-c02f6f29dd71ed32.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/26154ec979175f77d418cc759c9fa9673785e1b7/1129-411add1d8da06860.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/081048f42897bbf32fbd7facaeb0a6e3c88189d1/659-361c20ca42b119a8.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/081048f42897bbf32fbd7facaeb0a6e3c88189d1/5532-c0401e82e2fe4be1.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Error] Failed to load resource: the server responded with a status of 400 () (fetch_ds_code_gen_status, line 0)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)
+[Log] [Fullscreen] loadtime=6.37s maxmem=179254140 (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [devtools] – "Initialized LS" (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/d5348ada5d16350db6d8222b2a636000e01c577c/library_search_worker-dcd126bafb3b18a4.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Log] [devtools] – "Initialized LS" (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x4)
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c2aaff21cdad7b32b645adbf42d4bf3cc687c238/code_components_preview_iframe-aee2937bf6889db9.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<'
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "${Date.now()}" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🌱 Initializing multi-patient data for Caresolis... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🌱 Initializing demo data for Caresolis... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🌱 Seeding demo data for: – {userId: "dev-user-001", patientId: "1"} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 localStorage value: – null (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 No saved role, keeping default: admin (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=12:48" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=12:48" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📍 LocationSync: Fetching new location... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Error] Permission policy 'Geolocation' check failed for document with origin 'https://421dc00d-d31e-495b-a5dc-3da8331135ba-v2-figmaiframepreview.figma.site'.
+	(anonymous function) (index.js:8245)
+	Promise
+	(anonymous function) (index.js:8240)
+	getGPSLocation (index.js:8239)
+	(anonymous function) (index.js:8206)
+	getLocation (index.js:8201)
+	(anonymous function) (index.js:8875)
+	re (index.js:8871)
+	(anonymous function) (index.js:8883)
+	TN (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:138398)
+	T8 (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:151859)
+	T7 (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:151637)
+	T6 (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:151545)
+	T4 (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:151423)
+	S1 (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:163588)
+	SQ (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:163250)
+	(anonymous function) (code_components_preview_iframe-aee2937bf6889db9.min.js.br:37:162382)
+	(anonymous function) (code_components_preview_iframe-aee2937bf6889db9.min.js.br:65:74723)
+	V (code_components_preview_iframe-aee2937bf6889db9.min.js.br:61:1844)
+	B (code_components_preview_iframe-aee2937bf6889db9.min.js.br:61:1561)
+	eo (code_components_preview_iframe-aee2937bf6889db9.min.js.br:61:3435)
+[Log] 📍 LocationSync: GPS unavailable (User denied location permission). Using fallback location method. (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "Fort Bragg", state: "California", country: "US", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{city: "Fort Bragg", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 39.44572, …}Object
+[Log] 📍 LocationSync: Location updated – {city: "Fort Bragg", state: "California", timezone: "America/Los_Angeles", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{city: "Fort Bragg", state: "California", timezone: "America/Los_Angeles", source: "ip"}Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"12:55\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"localDate\": \"2026-03-18\",
+  \"localTime\": \"12:47\",
+  \"patientId\": \"1\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – {drift: "50ms", rtt: "1520.00ms", quality: "poor", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{drift: "50ms", rtt: "1520.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: 50, lastSyncTimestamp: 1773863305527, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: 50, lastSyncTimestamp: 1773863305527, syncQuality: "poor", timezone: "America/Los_Angeles", …}Object
+[Log] ✅ Demo data seeded successfully! – {success: true, message: "Demo data seeded successfully"} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["appliesTo", "customDays", "slots"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"appliesTo\": \"everyday\",↵    \"customDays\": [],↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵  …" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"appliesTo\": \"everyday\",
+    \"customDays\": [],
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ]
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 13:00", lastInteraction: "2026-03-18T19:09:26.676Z"}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Check-In Delayed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 13:00", lastInteraction: "2026-03-18T19:09:26.676Z"}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Check-In Delayed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ✅ Multi-patient data seeded: – {success: true, message: "All 3 patients seeded successfully", patients: [{id: "1", name: "Eleanor Whitmore"}, {id: "2", name: "Robert Chen"}, {id: "3", name: "Margaret Foster"}]} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-18T19:48:25.625Z", currentMinutes: 768, totalSlots: 5, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{currentTime: "2026-03-18T19:48:25.625Z", currentMinutes: 768, totalSlots: 5, slots: [{time: "09:00", status: "Check-In Delayed"}, {time: "13:00", status: "Scheduled"}, {time: "15:00", status: "Scheduled"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 0, slots: []} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 09:00: Check-In Delayed → ⏱️ Too old (228 minutes past, >60 min window) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (12 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (132 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (252 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (492 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (5) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Object, Object, Object, Object, Object]Array (5)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Check-In Delayed" → computed="Check-In Delayed" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)
+[Warning] Source Map "https://admin.figma.com/admin/webpack-artifacts/c2aaff21cdad7b32b645adbf42d4bf3cc687c238/code_components_preview_iframe-aee2937bf6889db9.min.js.map" has SyntaxError: JSON Parse error: Unrecognized token '<' (x6)
+[Debug] [vite] connecting... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Debug] [vite] connected. (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Error] Source Map loading errors (x17)
+[Error] Failed to load resource: the server responded with a status of 403 () (chunk-DEX2RCYB.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (foundry_client_api.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react_jsx_dev_runtime.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react_jsx_runtime.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react-router.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react-dnd.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react_base.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react_dom.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (react-dnd-html5-backend.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (sonner.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (chunk-DEX2RCYB.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (lucide-react.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (motion_react.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (recharts.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (class-variance-authority.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (tailwind-merge.js.map, line 0)
+[Error] Failed to load resource: the server responded with a status of 403 () (chunk-CIXASN2W.js.map, line 0)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "${Date.now()}" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – undefined (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=12:48" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1&localTime=12:48" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache – {city: "Fort Bragg", age: "0min"} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "Fort Bragg", state: "California", country: "US", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{city: "Fort Bragg", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 39.44572, …}Object
+[Log] 📍 LocationSync: Using cached location – {city: "Fort Bragg", state: "California", country: "US", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{city: "Fort Bragg", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 39.44572, …}Object
+[Log] ⏰ TimeSync: Sync complete – {drift: "143.5ms", rtt: "349.00ms", quality: "good", …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{drift: "143.5ms", rtt: "349.00ms", quality: "good", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: 143.5, lastSyncTimestamp: 1773863317256, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: 143.5, lastSyncTimestamp: 1773863317256, syncQuality: "good", timezone: "America/Los_Angeles", …}Object
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 13:00", lastInteraction: "2026-03-18T19:09:26.676Z"}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Check-In Delayed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: Array, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: Array, nextScheduled: "Today, 13:00", lastInteraction: "2026-03-18T19:09:26.676Z"}Object
+[Log] 📡 [SLOT 0] 09:00 → status="Check-In Delayed" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 1] 13:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 2] 15:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 3] 17:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📡 [SLOT 4] 21:00 → status="Scheduled" (should be green if "Check-In On Time" or "Check-In Delayed") (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-18T19:48:37.893Z", currentMinutes: 768, totalSlots: 5, …} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+{currentTime: "2026-03-18T19:48:37.893Z", currentMinutes: 768, totalSlots: 5, slots: [{time: "09:00", status: "Check-In Delayed"}, {time: "13:00", status: "Scheduled"}, {time: "15:00", status: "Scheduled"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 0, slots: []} (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] ℹ️ [Dashboard] No actionable slots found. Reasons: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 09:00: Check-In Delayed → ⏱️ Too old (228 minutes past, >60 min window) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 13:00: Scheduled → ⏰ Future slot (12 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 15:00: Scheduled → ⏰ Future slot (132 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 17:00: Scheduled → ⏰ Future slot (252 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   - 21:00: Scheduled → ⏰ Future slot (492 minutes from now) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 💡 [Dashboard] To test buttons: (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   1. Go to Device Simulator page (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   2. Click "Miss Dose" to create an escalation (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   3. Return to Dashboard - buttons should appear (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   OR (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   1. Wait for next scheduled time to pass (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   2. Don't verify - let it escalate (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log]   3. Buttons will appear automatically (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 📊 [Dashboard] Rendering with statusData.slots: – [Object, Object, Object, …] (5) (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Object, Object, Object, Object, Object]Array (5)
+[Log] 🎨 [RING] Slot 0 (09:00): status="Check-In Delayed" → computed="Check-In Delayed" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 1 (13:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 2 (15:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 3 (17:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Log] 🎨 [RING] Slot 4 (21:00): status="Scheduled" → computed="Scheduled" (code_components_preview_iframe-aee2937bf6889db9.min.js.br, line 90)
+[Warning] ArrayBuffer is deprecated in XMLHttpRequest.send(). Use ArrayBufferView instead. (vendor-fe7483da6da244f1.min.js.br, line 3, x2)

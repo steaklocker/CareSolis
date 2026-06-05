@@ -1,0 +1,43 @@
+        } else if (diff >= level1Threshold && diff < level2Threshold && event.escalationLevel < 1) {
+            newStatus = 'EscalationLevel1';
+            newLevel = 1;
+            const recipient = getRecipient(1);
+            console.log(`🔴 [ESCALATION_L1] TRIGGERED for ${event.scheduledTime} | Diff: ${diff} mins | Recipient: ${recipient}`);
+            event.logs.push({ timestamp: now.toISOString(), level: 1, action: 'Escalation Level 1 Triggered', recipient });
+            await writeAuditLog('ESCALATION_TRIGGER', 'system_automator', `Level 1 Escalation for ${event.scheduledTime}`, patientId);
+            await writeNotificationLog(
+                recipient, 
+                'Visibility Update: Level 1', 
+                `Scheduled Check-In: ${event.scheduledTime}\\nStatus: Not Logged\\nEscalation: Level 1 (${recipient} Notified)`,
+                patientId
+            );
+            stateChanged = true;
+        } else if (diff >= level2Threshold && diff < level3Threshold && event.escalationLevel < 2) {
+            newStatus = 'EscalationLevel2';
+            newLevel = 2;
+            const recipient = getRecipient(2);
+            console.log(`🔴🔴 [ESCALATION_L2] TRIGGERED for ${event.scheduledTime} | Diff: ${diff} mins | Recipient: ${recipient}`);
+            event.logs.push({ timestamp: now.toISOString(), level: 2, action: 'Escalation Level 2 Triggered', recipient });
+            await writeAuditLog('ESCALATION_TRIGGER', 'system_automator', `Level 2 Escalation for ${event.scheduledTime}`, patientId);
+            await writeNotificationLog(
+                recipient, 
+                'Visibility Update: Level 2', 
+                `Scheduled Check-In: ${event.scheduledTime}\\nStatus: Not Logged\\nEscalation: Level 2 (${recipient} Notified)`,
+                patientId
+            );
+            stateChanged = true;
+        } else if (diff >= level3Threshold && diff < closeThreshold && event.escalationLevel < 3) {
+            newStatus = 'EscalationLevel3';
+            newLevel = 3;
+            const recipient = getRecipient(3);
+            console.log(`🔴🔴🔴 [ESCALATION_L3] TRIGGERED for ${event.scheduledTime} | Diff: ${diff} mins | Recipient: ${recipient}`);
+            event.logs.push({ timestamp: now.toISOString(), level: 3, action: 'Escalation Level 3 Triggered', recipient });
+            await writeAuditLog('ESCALATION_TRIGGER', 'system_automator', `Level 3 Escalation for ${event.scheduledTime}`, patientId);
+            await writeNotificationLog(
+                recipient, 
+                'Visibility Update: Level 3', 
+                `Scheduled Check-In: ${event.scheduledTime}\\nStatus: Not Logged\\nEscalation: Level 3 (All Contacts Notified)`,
+                patientId
+            );
+            stateChanged = true;
+        } else if (diff >= closeThreshold && event.status !== 'Closed' && event.status !== 'Check-In Not Logged') {

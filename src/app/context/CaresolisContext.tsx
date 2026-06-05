@@ -499,13 +499,6 @@ export function CaresolisProvider({ children }: { children: React.ReactNode }) {
                 toast.error("Failed to verify interaction.");
             }
         } catch (e) {
-            // Silently handle abort errors (request timeout - backend may not be ready)
-            if (e instanceof Error && (e.name === 'AbortError' || e.message.includes('aborted'))) {
-                console.log('🟣 [INTERACT] Request aborted (backend may not be ready)');
-                setIsLoading(false);
-                return;
-            }
-
             console.error('🟣 [INTERACT] ❌ Network error:', e);
             toast.error("Network error.");
         } finally {
@@ -584,13 +577,6 @@ export function CaresolisProvider({ children }: { children: React.ReactNode }) {
                 await fetchStatus();
             }
         } catch (e) {
-            // Silently handle abort errors (request timeout - backend may not be ready)
-            if (e instanceof Error && (e.name === 'AbortError' || e.message.includes('aborted'))) {
-                console.log('[ACKNOWLEDGE] Request aborted (backend may not be ready)');
-                setIsLoading(false);
-                return;
-            }
-
             console.error('[ACKNOWLEDGE] Network error:', e);
             toast.error("Network error");
             // Refresh even on network error to sync state

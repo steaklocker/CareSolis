@@ -1,0 +1,142 @@
+[Log] 🎯 [Dashboard] targetActionSlot calculation: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+Object
+Could not fetch properties. Object may no longer exist.
+[Log] ⚠️ [Dashboard] Overriding premature "Closed" status for 15:00 (45 mins past) (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 1, slots: [{time: "15:00", status: "Closed"}]} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "${Date.now()}" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – {total: 20, visible: 20, hidden: 0} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 localStorage value: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 Setting role from localStorage: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 LocationSync: Loaded from cache – {city: "La Jolla", age: "6min"} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 📍 Location updated: – {city: "La Jolla", state: "California", country: "US", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{city: "La Jolla", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 32.84727, …}Object
+[Log] 📍 LocationSync: Using cached location – {city: "La Jolla", state: "California", country: "US", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{city: "La Jolla", state: "California", country: "US", timezone: "America/Los_Angeles", latitude: 32.84727, …}Object
+[Log] 📋 Sidebar filtered for caregiver: – {total: 20, visible: 10, hidden: 10} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - role: – "caregiver" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isAdmin: – false (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isCaregiver: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 10:46:08 PM [vite] (client) page reload supabase/functions/server/index.tsx (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-2158ms", rtt: "4906.00ms", quality: "poor", …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{drift: "-2158ms", rtt: "4906.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Initialization complete – {isSystemTimeAccurate: true, serverTimeDrift: -2158, lastSyncTimestamp: 1773787572836, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{isSystemTimeAccurate: true, serverTimeDrift: -2158, lastSyncTimestamp: 1773787572836, syncQuality: "poor", timezone: "America/Los_Angeles", …}Object
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, {time: "17:00", status: "Scheduled", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 17:00", lastInteraction: null}Object
+[Log] 📡 [CaresolisContext] Status response: – {status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, …], …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{status: "nominal", slotsCount: 5, slots: [{time: "09:00", status: "Closed", escalationLevel: 0}, {time: "13:00", status: "Closed", escalationLevel: 0}, {time: "15:00", status: "Closed", escalationLevel: 1}, {time: "17:00", status: "Scheduled", escalationLevel: 0}, {time: "21:00", status: "Scheduled", escalationLevel: 0}], nextScheduled: "Today, 17:00", lastInteraction: null}Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – {hasSchedule: true, scheduleType: "object", isArray: false, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{hasSchedule: true, scheduleType: "object", isArray: false, slotCount: 5, scheduleKeys: ["slots", "appliesTo", "customDays"], …}Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-17T22:46:13.131Z", currentMinutes: 946, totalSlots: 5, …} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+{currentTime: "2026-03-17T22:46:13.131Z", currentMinutes: 946, totalSlots: 5, slots: [{time: "09:00", status: "Closed"}, {time: "13:00", status: "Closed"}, {time: "15:00", status: "Closed"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] ⚠️ [Dashboard] Overriding premature "Closed" status for 15:00 (46 mins past) (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 1, slots: [{time: "15:00", status: "Closed"}]} (code_components_preview_iframe-38049e48d7f0a436.min.js.br, line 90)

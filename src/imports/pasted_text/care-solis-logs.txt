@@ -1,0 +1,151 @@
+[Log] Running frontend commit – "949bcfe12f714425cbbb78eb163bdd3dc59d6dc1" (Care-Solis-US2026, line 532)
+[Log] Loaded 35 scripts (0b), 35 from cache (0b) (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [Fullscreen] Ready in 153.0ms (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [import] git: 928aa3d9ac236592109160a5bd7bc0096da811d3, stamp: 3CC11CE07EEBCE56 (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] Migration succeeded: context: fullscreen_migrate_SceneGraphManager, version: 106, duration: 0ms. (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [devtools] – "Initialized LS" (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [Fullscreen] loadtime=10.17s maxmem=168467076 (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] [devtools] – "Initialized LS" (vendor-core-83c17265f2588e9e.min.js.br, line 54)
+[Log] 🔥 AuthContext v7.04.01 LOADING (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔥 AuthContext v7.04.01 LOADED (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] ✅ Router v6.46.1 initialized - Schedule Settings consolidated in Medication Hub (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔄 Cache bust version: – "${Date.now()}" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📋 Sidebar filtered for admin: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🌱 Initializing multi-patient data for Caresolis... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🌱 Initializing demo data for Caresolis... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🌱 Seeding demo data for: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🔐 UserRoleContext INIT - Starting initialization... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔐 Default role before localStorage check: – "admin" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔐 localStorage value: – null (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔐 No saved role, keeping default: admin (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔐 UserRoleContext - Persisting role to localStorage: – "admin" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📍 LocationSync: Fetching new location... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📍 LocationSync: GPS unavailable (User denied location permission). Using fallback location method. (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📍 Location updated: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 📍 LocationSync: Location updated – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Sync complete – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Initialization complete – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] ✅ Demo data seeded successfully! – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] ✅ Demo data initialized successfully! (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] ✅ Multi-patient data seeded: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🔒 ProtectedRoute check: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🔒 ProtectedRoute check: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🔒 ProtectedRoute check: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Sync complete – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Error] Source Map loading errors (x18)
+[Log] [esbuild-wasm] Initializing from URL: – "/webpack-artifacts/assets/2b68f2d3d5e8b3d6.wasm" (devtools_worker-7d15698f5362feef.min.js.br, line 1190)
+[Log] [esbuild-wasm] Initialized (devtools_worker-7d15698f5362feef.min.js.br, line 1190)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-75ms", rtt: "526.00ms", quality: "good", …} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+{drift: "-75ms", rtt: "526.00ms", quality: "good", timezone: "America/Los_Angeles"}Object

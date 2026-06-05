@@ -1,0 +1,132 @@
+[Log] 🔐 COMPUTED VALUES: (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - role: – "admin" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isAdmin: – true (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isCaregiver: – false (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log]    - isBaseAdmin: – true (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] ⏰ TimeSync: Initializing time synchronization system... (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📡 [CaresolisContext] Fetching status from: – "https://tymxobwheycaynmwprpt.supabase.co/functions/v1/make-server-9aeac050/status?patientId=1" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 📍 Location updated: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 📍 LocationSync: Using cached location – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 10:37:39 PM [vite] (client) hmr invalidate /src/app/routes.tsx Could not Fast Refresh ("router" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 10:37:39 PM [vite] (client) hmr update /src/styles/index.css, /src/app/App.tsx (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔥 AuthProvider RENDERING (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] 🔥 AuthProvider returning children (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+[Log] ⏰ TimeSync: Sync complete – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] ⏰ TimeSync: Initialization complete – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 Settings fetched from backend: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] [CARESOLIS_CONTEXT] 📥 FULL SETTINGS DATA: – "{↵  \"schedule\": {↵    \"slots\": [↵      {↵        \"id\": \"1\",↵        \"time\": \"09:00\",↵        \"enabled\": true↵      },↵      {↵        \"id\"…" (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+"{
+  \"schedule\": {
+    \"slots\": [
+      {
+        \"id\": \"1\",
+        \"time\": \"09:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"2\",
+        \"time\": \"13:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"3\",
+        \"time\": \"15:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"4\",
+        \"time\": \"17:00\",
+        \"enabled\": true
+      },
+      {
+        \"id\": \"5\",
+        \"time\": \"21:00\",
+        \"enabled\": true
+      }
+    ],
+    \"appliesTo\": \"everyday\",
+    \"customDays\": []
+  },
+  \"reminderOffset\": 0,
+  \"level1Offset\": 15,
+  \"level2Offset\": 30,
+  \"level3Offset\": 45,
+  \"gracePeriod\": 15,
+  \"driftThreshold\": 15,
+  \"location\": \"Portland, Oregon\",
+  \"city\": \"Portland\",
+  \"state\": \"OR\",
+  \"scheduledTime\": \"09:00\"
+}"
+[Log] 📡 [CaresolisContext] Status response: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Log] 🎯 [Dashboard] actionableSlots filtered: – Object (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+Object
+[Error] Source Map loading errors (x13)
+[Log] [esbuild-wasm] Initializing from URL: – "/webpack-artifacts/assets/2b68f2d3d5e8b3d6.wasm" (devtools_worker-7d15698f5362feef.min.js.br, line 1190)
+[Log] [esbuild-wasm] Initialized (devtools_worker-7d15698f5362feef.min.js.br, line 1190)
+[Log] ⏰ TimeSync: Sync complete – {drift: "-303ms", rtt: "1184.00ms", quality: "poor", …} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+{drift: "-303ms", rtt: "1184.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Sync complete – {drift: "-292.5ms", rtt: "1189.00ms", quality: "poor", …} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+{drift: "-292.5ms", rtt: "1189.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] ⏰ TimeSync: Sync complete – {drift: "-277ms", rtt: "1194.00ms", quality: "poor", …} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+{drift: "-277ms", rtt: "1194.00ms", quality: "poor", timezone: "America/Los_Angeles"}Object
+[Log] 🎯 [Dashboard] targetActionSlot calculation: – {currentTime: "2026-03-16T22:38:23.161Z", currentMinutes: 938, totalSlots: 5, …} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)
+{currentTime: "2026-03-16T22:38:23.161Z", currentMinutes: 938, totalSlots: 5, slots: [{time: "09:00", status: "Closed"}, {time: "13:00", status: "Closed"}, {time: "15:00", status: "Closed"}, {time: "17:00", status: "Scheduled"}, {time: "21:00", status: "Scheduled"}]}Object
+[Log] 🎯 [Dashboard] actionableSlots filtered: – {count: 1, slots: [{time: "15:00", status: "Closed"}]} (code_components_preview_iframe-cbd00381eef096cb.min.js.br, line 90)

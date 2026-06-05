@@ -1,0 +1,254 @@
+[Error] Fetch API cannot load https://errors.figma.com/api/sentry/api/56203/envelope/?sentry_key=d1b12a8fbe424e4b956eb33cadd5b30d&sentry_version=7&sentry_client=sentry.javascript.browser%2F8.40.0 due to access control checks.
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:63:16246)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:63:15600)
+	add (vendor-core-83c17265f2588e9e.min.js.br:63:14964)
+	send (vendor-core-83c17265f2588e9e.min.js.br:63:15594)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:63:18234)
+	s (vendor-core-83c17265f2588e9e.min.js.br:63:18642)
+	sendEnvelope (vendor-core-83c17265f2588e9e.min.js.br:62:5615)
+	sendEvent (vendor-core-83c17265f2588e9e.min.js.br:62:4763)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:62:9408)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:10581)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:11308)
+	forEach
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:11266)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:10680)
+	u (vendor-core-83c17265f2588e9e.min.js.br:68:10455)
+	then (vendor-core-83c17265f2588e9e.min.js.br:68:10532)
+	_processEvent (vendor-core-83c17265f2588e9e.min.js.br:62:8832)
+	_captureEvent (vendor-core-83c17265f2588e9e.min.js.br:62:7074)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:10581)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:11308)
+	forEach
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:11266)
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:68:10680)
+	u (vendor-core-83c17265f2588e9e.min.js.br:68:10455)
+	then (vendor-core-83c17265f2588e9e.min.js.br:68:10532)
+	captureException (vendor-core-83c17265f2588e9e.min.js.br:62:2711)
+	captureException (vendor-core-83c17265f2588e9e.min.js.br:63:28075)
+	(anonymous function) (figma_app-970c79351b85b521.min.js.br:229:1964817)
+[Warning] Could not load image worker blob – NetworkError: Load failed — 6cd1e251-bc93-425f-936a-db2e0d5da96b:1 (6cd1e251-bc93-425f-936a-db2e0d5da96b, line 4)
+NetworkError: Load failed — 6cd1e251-bc93-425f-936a-db2e0d5da96b:1
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/web_logger/histogram_batched due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+	w (5606-1de0d45022ae32b0.min.js.br:1318:14281)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:15297)
+	p (5606-1de0d45022ae32b0.min.js.br:1318:15363)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:86903)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/integrations/supabase/FtzISRwMF78mXYHbksacxY/connection due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/make/ds_import_libraries? due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/ai_chat/FtzISRwMF78mXYHbksacxY/message_content_blobs/619b88bd-7114-4573-a6c5-cafab5b7a64a?file_key=FtzISRwMF78mXYHbksacxY&thread_id=619b88bd-7114-4573-a6c5-cafab5b7a64a due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/web_logger/histogram_batched due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+	w (5606-1de0d45022ae32b0.min.js.br:1318:14281)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:15297)
+	p (5606-1de0d45022ae32b0.min.js.br:1318:15363)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:86903)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/community/buyer/active_payments due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/user/plans due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/rev/FtzISRwMF78mXYHbksacxY/code_snapshot/561317362962c55b0f61cad77a5ec0b5ae50a9f78db928818fd97cb99f51707f due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/integrations/supabase/FtzISRwMF78mXYHbksacxY/existing_projects due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/mcp/clients?file_key=FtzISRwMF78mXYHbksacxY due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/design_systems/library/FtzISRwMF78mXYHbksacxY/published_and_moved_components due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/v2/statsig/bootstrap?team_ids= due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/web_logger/metrics_batched due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+	w (5606-1de0d45022ae32b0.min.js.br:1318:14281)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:15297)
+	p (5606-1de0d45022ae32b0.min.js.br:1318:15363)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:86430)
+[Error] XMLHttpRequest cannot load https://www.figma.com/file/FtzISRwMF78mXYHbksacxY/image/batch due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/web_logger/metrics_batched due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+	w (5606-1de0d45022ae32b0.min.js.br:1318:14281)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:15297)
+	p (5606-1de0d45022ae32b0.min.js.br:1318:15363)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:86430)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/folders/556052352 due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/authed_users/plans due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/web_logger/metrics/web.cortex.error due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13558)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+	C (5606-1de0d45022ae32b0.min.js.br:1318:13573)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13655)
+	w (5606-1de0d45022ae32b0.min.js.br:1318:14281)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:15297)
+	p (5606-1de0d45022ae32b0.min.js.br:1318:15363)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:85745)
+	_ (5606-1de0d45022ae32b0.min.js.br:1279:85833)
+	onError (figma_app-970c79351b85b521.min.js.br:6:482154)
+	(anonymous function) (figma_app-970c79351b85b521.min.js.br:429:7610)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/user/plans due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/make/FtzISRwMF78mXYHbksacxY/cached_preview_urls?source_code_hash=0272ce5f0e527459720cf3f3fa6bb1f4e035ae15 due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] Error: XHR for "https://www.figma.com/api/web_logger/histogram_batched" failed with status 0
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:54:12597)
+	(anonymous function) (vendor-fe7483da6da244f1.min.js.br:3:13304)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:384:208954)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/integrations/supabase/FtzISRwMF78mXYHbksacxY/connection due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/make/ds_import_libraries? due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/ai_chat/FtzISRwMF78mXYHbksacxY/message_content_blobs/619b88bd-7114-4573-a6c5-cafab5b7a64a?file_key=FtzISRwMF78mXYHbksacxY&thread_id=619b88bd-7114-4573-a6c5-cafab5b7a64a due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/community/buyer/active_payments due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/user/plans due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/rev/FtzISRwMF78mXYHbksacxY/code_snapshot/561317362962c55b0f61cad77a5ec0b5ae50a9f78db928818fd97cb99f51707f due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/integrations/supabase/FtzISRwMF78mXYHbksacxY/existing_projects due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/mcp/clients?file_key=FtzISRwMF78mXYHbksacxY due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/design_systems/library/FtzISRwMF78mXYHbksacxY/published_and_moved_components due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/v2/statsig/bootstrap?team_ids= due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] Fetch API cannot load https://events.statsigapi.net/v1/rgstr due to access control checks.
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:54:15942)
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (vendor-fe7483da6da244f1.min.js.br:123:109832)
+	u (vendor-fe7483da6da244f1.min.js.br:123:105200)
+	(anonymous function) (vendor-fe7483da6da244f1.min.js.br:123:104210)
+	Promise
+	(anonymous function) (vendor-fe7483da6da244f1.min.js.br:123:104022)
+	(anonymous function) (vendor-fe7483da6da244f1.min.js.br:123:110444)
+	u (vendor-core-83c17265f2588e9e.min.js.br:54:8887)
+[Error] Fetch API cannot load https://www.figma.com/api/figment-proxy/monitor due to access control checks.
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:54:15942)
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	_makeRequest (5606-1de0d45022ae32b0.min.js.br:1248:68309)
+	r (5606-1de0d45022ae32b0.min.js.br:1248:66247)
+	u (vendor-core-83c17265f2588e9e.min.js.br:54:8887)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/user/plans due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] XMLHttpRequest cannot load https://www.figma.com/api/make/FtzISRwMF78mXYHbksacxY/cached_preview_urls?source_code_hash=0272ce5f0e527459720cf3f3fa6bb1f4e035ae15 due to access control checks.
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:13568)
+	Promise
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1318:10791)
+[Error] Unhandled Promise Rejection: Error: XHR for "https://www.figma.com/api/web_logger/metrics/web.cortex.error" failed with status 0
+	(anonymous function) (5606-1de0d45022ae32b0.min.js.br:1279:85745)
+[Error] Fetch API cannot load https://www.figma.com/api/figment-proxy/monitor due to access control checks.
+	(anonymous function) (vendor-core-83c17265f2588e9e.min.js.br:54:15942)
+	h (vendor-fe7483da6da244f1.min.js.br:3:37553)
+	_makeRequest (5606-1de0d45022ae32b0.min.js.br:1248:68309)
+	r (5606-1de0d45022ae32b0.min.js.br:1248:66247)
+	u (vendor-core-83c17265f2588e9e.min.js.br:54:8887)

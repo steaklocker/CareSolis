@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CareSolis PWA Check</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 2rem;
+            min-height: 100vh;
+            min-height: -webkit-fill-available;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #10b981;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .status-card {
+            background: #1e293b;
+            border: 2px solid #334155;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .status-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #334155;
+        }
+        .status-item:last-child {
+            border-bottom: none;
+        }
+        .label {
+            font-weight: 600;
+            color: #cbd5e1;
+        }
+        .value {
+            font-family: monospace;
+            font-size: 0.9rem;
+        }
+        .pass {
+            color: #10b981;
+        }
+        .fail {
+            color: #f43f5e;
+        }
+        .warn {
+            color: #f59e0b;
+        }
+        .icon-preview {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1rem 0;
+        }
+        .icon-box {
+            text-align: center;
+            padding: 1rem;
+            background: #334155;
+            border-radius: 8px;
+        }
+        .icon-box img {
+            width: 96px;
+            height: 96px;
+            border-radius: 12px;
+            margin-bottom: 0.5rem;
+        }
+        .icon-label {
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+        .pwa-mode {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .browser-mode {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .instructions {
+            background: #1e293b;
+            border-left: 4px solid #10b981;
+            padding: 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        .instructions strong {
+            color: #10b981;
+        }
+        button {
+            width: 100%;
+            background: #10b981;
+            color: white;
+            border: none;
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0.5rem 0;
+            cursor: pointer;
+        }
+        button:active {
+            background: #059669;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 CareSolis PWA Status</h1>
+        
+        <div id="mode-indicator"></div>
+        
+        <div class="status-card">
+            <div class="status-item">
+                <span class="label">PWA Mode:</span>
+                <span class="value" id="pwa-mode">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="label">Platform:</span>
+                <span class="value" id="platform">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="label">Display Mode:</span>
+                <span class="value" id="display-mode">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="label">Manifest:</span>
+                <span class="value" id="manifest">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="label">Service Worker:</span>
+                <span class="value" id="sw">Checking...</span>
+            </div>
+        </div>
+
+        <div class="status-card">
+            <h3 style="margin-bottom: 1rem; color: #10b981;">Icon Status</h3>
+            <div class="status-item">
+                <span class="label">icon-192.png:</span>
+                <span class="value" id="icon-192">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="label">icon-512.png:</span>
+                <span class="value" id="icon-512">Checking...</span>
+            </div>
+        </div>
+
+        <div class="icon-preview">
+            <div class="icon-box">
+                <img src="/icons/icon-192.png" alt="192x192" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIGZpbGw9IiNmNDNmNWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iNDgiPng8L3RleHQ+PC9zdmc+'">
+                <div class="icon-label">192×192</div>
+            </div>
+            <div class="icon-box">
+                <img src="/icons/icon-512.png" alt="512x512" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIHZpZXdCb3g9IjAgMCA5NiA5NiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iOTYiIGhlaWdodD0iOTYiIGZpbGw9IiNmNDNmNWUiLz48dGV4dCB4PSI1MCUiIHk9IjUwJSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZG9taW5hbnQtYmFzZWxpbmU9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtc2l6ZT0iNDgiPng8L3RleHQ+PC9zdmc+'">
+                <div class="icon-label">512×512</div>
+            </div>
+        </div>
+
+        <div id="instructions"></div>
+
+        <button onclick="location.href='/icons/generate-png-icons.html'">
+            📥 Download PNG Icons
+        </button>
+        
+        <button onclick="location.href='/'">
+            🏠 Go to CareSolis App
+        </button>
+    </div>
+
+    <script>
+        // Check PWA mode
+        const isStandalone = window.matchMedia('(display-mode: standalone)').matches 
+            || window.navigator.standalone 
+            || document.referrer.includes('android-app://');
+        
+        const modeIndicator = document.getElementById('mode-indicator');
+        const instructionsDiv = document.getElementById('instructions');
+        
+        if (isStandalone) {
+            modeIndicator.innerHTML = '<div class="pwa-mode">✅ PWA MODE - Running in standalone (full screen)</div>';
+            document.getElementById('pwa-mode').innerHTML = '<span class="pass">✅ Standalone</span>';
+            
+            instructionsDiv.innerHTML = `
+                <div class="instructions">
+                    <strong>✅ SUCCESS!</strong> CareSolis is running as a PWA in full-screen mode!<br><br>
+                    You should see:<br>
+                    • No Safari URL bar<br>
+                    • No Safari bottom navigation<br>
+                    • Full screen from notch to bottom<br>
+                    • Home indicator at bottom
+                </div>
+            `;
+        } else {
+            modeIndicator.innerHTML = '<div class="browser-mode">⚠️ BROWSER MODE - Add to Home Screen for full experience</div>';
+            document.getElementById('pwa-mode').innerHTML = '<span class="warn">⚠️ Browser</span>';
+            
+            instructionsDiv.innerHTML = `
+                <div class="instructions">
+                    <strong>📱 To install as PWA:</strong><br><br>
+                    <strong>iPhone (Safari):</strong><br>
+                    1. Tap Share button (square with arrow)<br>
+                    2. Tap "Add to Home Screen"<br>
+                    3. Tap "Add"<br>
+                    4. Launch from home screen icon<br><br>
+                    <strong>⚠️ IMPORTANT:</strong> PNG icons must exist first!<br>
+                    Click "Download PNG Icons" button above.
+                </div>
+            `;
+        }
+        
+        // Platform detection
+        const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        const isAndroid = /Android/i.test(navigator.userAgent);
+        const isMac = /Mac/i.test(navigator.userAgent) && !isIOS;
+        
+        let platform = 'Desktop';
+        if (isIOS) platform = 'iOS (iPhone/iPad)';
+        else if (isAndroid) platform = 'Android';
+        else if (isMac) platform = 'macOS';
+        
+        document.getElementById('platform').innerHTML = `<span class="${isIOS ? 'pass' : 'value'}">${platform}</span>`;
+        
+        // Display mode
+        const displayMode = window.matchMedia('(display-mode: standalone)').matches ? 'standalone' 
+            : window.matchMedia('(display-mode: fullscreen)').matches ? 'fullscreen'
+            : window.matchMedia('(display-mode: minimal-ui)').matches ? 'minimal-ui'
+            : 'browser';
+        
+        document.getElementById('display-mode').innerHTML = 
+            `<span class="${displayMode === 'standalone' ? 'pass' : 'warn'}">${displayMode}</span>`;
+        
+        // Check manifest
+        fetch('/manifest.json')
+            .then(r => r.json())
+            .then(manifest => {
+                const hasIcons = manifest.icons && manifest.icons.length > 0;
+                document.getElementById('manifest').innerHTML = 
+                    `<span class="pass">✅ Loaded (${manifest.icons?.length || 0} icons)</span>`;
+            })
+            .catch(() => {
+                document.getElementById('manifest').innerHTML = '<span class="fail">❌ Failed</span>';
+            });
+        
+        // Check service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistration().then(reg => {
+                document.getElementById('sw').innerHTML = reg 
+                    ? '<span class="pass">✅ Active</span>' 
+                    : '<span class="warn">⚠️ Not registered</span>';
+            });
+        } else {
+            document.getElementById('sw').innerHTML = '<span class="fail">❌ Not supported</span>';
+        }
+        
+        // Check icons
+        fetch('/icons/icon-192.png')
+            .then(r => {
+                document.getElementById('icon-192').innerHTML = r.ok 
+                    ? '<span class="pass">✅ Found</span>' 
+                    : '<span class="fail">❌ Missing</span>';
+            })
+            .catch(() => {
+                document.getElementById('icon-192').innerHTML = '<span class="fail">❌ Missing</span>';
+            });
+        
+        fetch('/icons/icon-512.png')
+            .then(r => {
+                document.getElementById('icon-512').innerHTML = r.ok 
+                    ? '<span class="pass">✅ Found</span>' 
+                    : '<span class="fail">❌ Missing</span>';
+            })
+            .catch(() => {
+                document.getElementById('icon-512').innerHTML = '<span class="fail">❌ Missing</span>';
+            });
+        
+        // Console logging
+        console.log('📱 PWA Check');
+        console.log('Standalone:', isStandalone);
+        console.log('Platform:', platform);
+        console.log('Display Mode:', displayMode);
+        console.log('User Agent:', navigator.userAgent);
+    </script>
+</body>
+</html>
