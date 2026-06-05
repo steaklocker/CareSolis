@@ -54,18 +54,20 @@ export function usePWA() {
       return;
     }
 
-    // Check if we're in a compatible environment
-    const isFigmaPreview = window.location.hostname.includes('figma');
-    const isLocalhost = window.location.hostname === 'localhost';
-    const isHTTPS = window.location.protocol === 'https:';
-
-    // Only register SW in production HTTPS environments
-    if (!isHTTPS && !isLocalhost) {
+    // Skip SW registration when running inside an iframe (Figma Make, embeds, etc.)
+    // Service workers cannot be registered cross-origin and cause CORS errors in iframes.
+    try {
+      if (window.self !== window.top) return;
+    } catch {
+      // Can't access window.top due to cross-origin policy — we're in an iframe
       return;
     }
 
-    // Skip SW registration in Figma preview (expected limitation)
-    if (isFigmaPreview) {
+    const isLocalhost = window.location.hostname === 'localhost';
+    const isHTTPS = window.location.protocol === 'https:';
+
+    // Only register SW in production HTTPS or localhost
+    if (!isHTTPS && !isLocalhost) {
       return;
     }
 
