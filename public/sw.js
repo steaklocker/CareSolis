@@ -4,8 +4,8 @@
  * FDA-Compliant: Maintains data integrity in offline mode
  */
 
-const CACHE_NAME = 'caresolis-v1.0.1';
-const DATA_CACHE_NAME = 'caresolis-data-v1.0.1';
+const CACHE_NAME = 'caresolis-v1.0.2';
+const DATA_CACHE_NAME = 'caresolis-data-v1.0.2';
 
 // Essential resources to cache immediately
 const PRECACHE_URLS = [
