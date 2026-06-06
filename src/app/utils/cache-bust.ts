@@ -11,5 +11,5 @@
  * 4. Reopen the app in a fresh tab
  */
 
-export const CACHE_BUST_VERSION = '1745799100000';
+export const CACHE_BUST_VERSION = '17459254400000';
 export const lastUpdate = new Date().toISOString();
